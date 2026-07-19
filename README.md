@@ -31,3 +31,4 @@ Dormin is a 42 — 36 keys split keyboard, inspired by some awesome keyboards th
     *   The outermost pinky column (`outer`, 2 keys per side) can be snapped off.
     *   The innermost thumb key (`t4`, 1 key per side) can be snapped off (marked with `breakaway_thumb: true` tag).
     *   Depanelization points are aligned with standard **mouse bites** (perforations) placed between the breakaway sections.
+

@@ -17,13 +17,33 @@ This document shortly explain the definitions for the LED status indicators for 
 
 > Addressable LED implementations here on [hitsmaxft/zmk-rgbled-widget](https://github.com/hitsmaxft/zmk-rgbled-widget#adding-support-in-custom-boardsshields).
 
-### Behaviors
+### LED status behaviors
+
+Minimalist and easy-to-remember colors (Nuphy inspired).
 
 **Connection**
 
-🔵 = (Left) Host connected
-🟡 = (Left) Advertising
-🔴 = (Left) Host connection lost
+🔵🔵🔵 = [Solid] (Left) Host connected
+🔵🔵🔵 = [Breathing] (Left) Host disconnected
+🔵🔵🔵 = [Blinking] (Left) Advertising
+
+🔵🔵🔵 = [Solid] (Right) Split Linked
+🔵🔵🔵 = [Breathing] (Right) Split disconnected
+
+**Battery**
+
+🟢🟢🟢 = [Solid] (Left/Right) 80 - 100%
+🟡🟡⚫ = [Solid] (Left/Right) 40 - 79%
+🔴⚫⚫ = [Solid] (Left/Right) < 40%
+
+**Layers**
+
+Base = None
+Symbol = None
+Number = None
+Media = 🔵 (Cyan)
+Dev = None
+Extra = 🟣
 
 ## ARGB and LP5012 LED Driver
 
@@ -32,4 +52,3 @@ The LP driver allows fully controled RGB lights with the `SDA` and `SCL` GPIOs, 
 - Fully smooth controled animations
 - Ultra Low power
 - Don't need dedicated GPIO (Same NET as screens)
-
