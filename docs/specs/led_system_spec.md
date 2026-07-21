@@ -47,8 +47,8 @@ Extra = 🟣
 
 ## ARGB and LP5012 LED Driver
 
-The LP driver allows fully controled RGB lights with the `SDA` and `SCL` GPIOs, using the I2C protocol, as it's shared it can run more than one peripheral on the same NET. The LP enable the following:
+The LP driver allows fully controlled RGB lights with the `SDA` and `SCL` GPIOs, using the I2C protocol, as it's shared it can run more than one peripheral on the same NET. The LP enable the following:
 
-- Fully smooth controled animations
+- Fully smooth controlled animations
 - Ultra Low power
 - Don't need dedicated GPIO (Same NET as screens)

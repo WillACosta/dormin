@@ -33,13 +33,13 @@ points:
     matrix:
       columns:
         outer:
-          rows.top.skip: true
+          # rows.top.skip: true
         pinky:
-          key:
-            stagger: -u/2
+          # key:
+            # stagger: u/2
         ring:
           key:
-            stagger: 4
+            stagger: u/2
         middle:
           key:
             stagger: 4
@@ -88,19 +88,24 @@ points:
 # OUTLINES
 # ------------------------------------------------------------------------------
 outlines:
+  _raw_keys:
+    - what: rectangle
+      where: [key]
+      size: [cx, cy]
+
   _keycaps:
     - what: rectangle
       where: [key]
       size:
         - cx
         - cy
-      fillet: 3
+      fillet: 2
 
-  _raw:
+  raw:
     - what: rectangle
       where: key
       size: [u+4,u+4]
-      corner: 1.5
+      corner: 2
 
   switch_cutouts:
     - what: rectangle
@@ -116,8 +121,8 @@ outlines:
 
   panel:
     - what: outline
-      name: _raw
-      expand: 1.6
+      name: raw
+      expand: 1.1
 
   switch_plate:
     main:
@@ -130,10 +135,10 @@ outlines:
 
   pcbref:
     - what: outline
-      name: _keypos
+      name: panel
       operation: stack
     - what: outline
-      name: _raw
+      name: _raw_keys
       operation: stack
 
   preview:
