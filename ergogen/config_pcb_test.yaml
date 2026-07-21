@@ -1,0 +1,398 @@
+# ==============================================================================
+# ZEN KEYBOARD - ERGOGEN V4 CONFIGURATION (validated against docs.ergogen.xyz)
+# 40-key to 34-key Split Keyboard | nice!nano v2 | Reversible PCB
+# ==============================================================================
+
+meta:
+  name: "Zen Keyboard"
+  author: "will"
+  version: "1.1.0"
+
+# ------------------------------------------------------------------------------
+# UNITS
+# ------------------------------------------------------------------------------
+units:
+  # MX standard spacing: 19.05mm (3/4 inch, the Cherry MX spec)
+  u: 19.05
+  cx: 18
+  cy: 18
+
+# ------------------------------------------------------------------------------
+# POINTS
+# ------------------------------------------------------------------------------
+points:
+  key:
+    padding: u
+    spread: u
+
+  zones:
+    # ── Main alpha matrix ──────────────────────────────────────────────────────
+    matrix:
+      anchor:
+        rotate: 0
+      key:
+        # default bind so rectangles merge into a continuous outline
+        autobind: 10
+      columns:
+        outer:
+          key:
+            stagger: 0
+            column_net: col0
+          rows:
+            top:
+              skip: true    # outer pinky = 2 keys only
+        pinky:
+          key:
+            stagger: -4
+            column_net: col1
+        ring:
+          key:
+            stagger: 4
+            column_net: col2
+        middle:
+          key:
+            stagger: 4
+            column_net: col3
+        index:
+          key:
+            stagger: -4
+            column_net: col4
+        inner:
+          key:
+            stagger: -2
+            column_net: col5
+      rows:
+        bottom:
+          row_net: row0
+        home:
+          row_net: row1
+        top:
+          row_net: row2
+
+    # ── Thumb cluster ──────────────────────────────────────────────────────────
+    # Designed for larger hands:
+    #   - Zone rotated -15° so the arc curves naturally downward-outward,
+    #     following the thumb's sweep from wrist pivot point.
+    #   - Progressive splay fans keys along an arc (~6–7° per step) rather
+    #     than laying them flat.
+    #   - Stagger drops progressively on outer keys, mimicking how the thumb
+    #     naturally lowers when extending outward from the body.
+    #   - Anchor shifted further down (-1.4u) and slightly outward to open a
+    #     comfortable gap between the home row and the thumb row.
+    thumbs:
+      anchor:
+        ref: matrix_index_bottom
+        shift: [-0.6u, -1.4u]
+        rotate: -15           # overall zone tilt: curves the row downward-outward
+      key:
+        autobind: 10
+      columns:
+        # t1: innermost thumb key — rests under the index finger, slightly elevated
+        t1:
+          key:
+            stagger: 3
+            splay: 0          # no extra splay on first key (zone rotate handles it)
+            column_net: col1
+            row_net: row3
+        # t2: primary thumb key — the "home" thumb position for most users
+        t2:
+          key:
+            stagger: -2
+            splay: -7         # fans outward ~7°
+            column_net: col2
+            row_net: row3
+        # t3: secondary thumb key — naturally reachable when thumb extends
+        t3:
+          key:
+            stagger: -4
+            splay: -7         # cumulative ~14° from t1
+            column_net: col3
+            row_net: row3
+        # t4: outermost thumb key (breakaway) — stretched reach for large hands
+        t4:
+          key:
+            stagger: -5
+            splay: -6         # cumulative ~20° from t1
+            column_net: col4
+            row_net: row3
+      rows:
+        only:
+
+    # ── Controller helper points ───────────────────────────────────────────────
+    # Each column = one component position.  One shared row ("pad") gives each
+    # column a valid point name:  controller_<col>_pad
+    controller:
+      anchor:
+        ref: matrix_inner_top
+        shift: [27, 0]
+      columns:
+        mcu:          # nice!nano MCU
+          key:
+            stagger: 0
+            skip: true
+        oled:         # SSD1306 OLED
+          key:
+            stagger: -19
+            skip: true
+        encoder:      # EC11 rotary encoder
+          key:
+            stagger: -38
+            skip: true
+        rst:          # reset / boot button
+          key:
+            stagger: -52
+            skip: true
+        pwr:          # power slide switch
+          key:
+            stagger: -62
+            skip: true
+        jst:          # JST PH 1.0 battery connector
+          key:
+            stagger: -72
+            skip: true
+      rows:
+        pad:
+
+# ------------------------------------------------------------------------------
+# OUTLINES
+# ------------------------------------------------------------------------------
+outlines:
+  # Keycap footprint preview
+  caps:
+    - what: rectangle
+      where: /^matrix_|^thumbs_/
+      size: [cx, cy]
+
+  # ── Core 34-key board shape ────────────────────────────────────────────────
+  # (all matrix columns except outer, plus thumbs t1–t3)
+  _keys_34:
+    - what: rectangle
+      where: /^matrix_(pinky|ring|middle|index|inner)_|^thumbs_(t1|t2|t3)_/
+      size: [u, u]
+      bound: true         # key-level autobind drives the binding
+
+  _ctrl_block:
+    - what: rectangle
+      where: controller_mcu_pad
+      size: [28, 38]      # wide enough to cover nice!nano (33.5 × 17.8 mm)
+    - what: rectangle
+      where: controller_oled_pad
+      size: [28, 22]
+    - what: rectangle
+      where: controller_encoder_pad
+      size: [28, 18]
+    - what: rectangle
+      where: controller_rst_pad
+      size: [28, 12]
+    - what: rectangle
+      where: controller_pwr_pad
+      size: [28, 10]
+    - what: rectangle
+      where: controller_jst_pad
+      size: [28, 10]
+
+  board_34:
+    - name: _keys_34
+    - operation: add
+      name: _ctrl_block
+
+  # ── Breakaway wings ────────────────────────────────────────────────────────
+  _wing_pinky:
+    - what: rectangle
+      where: /^matrix_outer_/
+      size: [u, u]
+      bound: true
+
+  _wing_thumb4:
+    - what: rectangle
+      where: /^thumbs_t4_/
+      size: [u, u]
+      bound: true
+
+  # ── Full 40-key board shape (for manufacturing) ────────────────────────────
+  board_40:
+    - name: board_34
+    - operation: add
+      name: _wing_pinky
+    - operation: add
+      name: _wing_thumb4
+
+  # ── Switch plate (MX 14×14 cutouts) ───────────────────────────────────────
+  _switch_holes:
+    - what: rectangle
+      where: /^matrix_|^thumbs_/
+      size: [14, 14]
+
+  plate_34:
+    - name: board_34
+    - operation: subtract
+      name: _switch_holes
+
+  plate_40:
+    - name: board_40
+    - operation: subtract
+      name: _switch_holes
+
+# ------------------------------------------------------------------------------
+# CASES  (3-D printable bodies)
+# ------------------------------------------------------------------------------
+cases:
+  case_bottom_34:
+    - what: outline
+      name: board_34
+      extrude: 2
+  case_plate_34:
+    - what: outline
+      name: plate_34
+      extrude: 1.5
+  case_bottom_40:
+    - what: outline
+      name: board_40
+      extrude: 2
+  case_plate_40:
+    - what: outline
+      name: plate_40
+      extrude: 1.5
+
+# ------------------------------------------------------------------------------
+# PCBS
+# The docs show footprints as a LIST (- where / what / params).
+# params keys depend entirely on what the footprint .js file exposes.
+# We use only the Ergogen-core keys (where, what, adjust, params) and keep
+# params to the nets that match the standard built-in footprints.
+# ------------------------------------------------------------------------------
+pcbs:
+  zen_keyboard:
+    outlines:
+      - outline: board_40
+        layer: Edge.Cuts
+
+    footprints:
+      # ── MX switches (ceoloide – reversible, hotswap + solder) ──────────────
+      # Source: https://github.com/ceoloide/ergogen-footprints
+      # Dual footprint strategy: both MX and KS33 pads are placed at every key
+      # position. Choose which switch to install at assembly time.
+      # They share identical pin positions (2 signal + center hole) so the
+      # nets are wired the same way.
+      - what: ceoloide/switch_mx
+        where: /^matrix_|^thumbs_/
+        params:
+          from: "{{column_net}}"
+          to: "{{colrow}}_sw"
+          reversible: true
+          hotswap: true
+          solder: true
+          include_keycap: true
+          include_corner_marks: true
+
+      # ── Gateron KS27 / KS33 switches (ceoloide – reversible, hotswap) ────────
+      # Larger central pin (5.08 mm) vs standard MX (4 mm).
+      # Source: https://github.com/ceoloide/ergogen-footprints
+      # The KS33 footprint overlaps with ceoloide/switch_mx above; both are
+      # included so the PCB supports either switch family without re-spinning.
+      - what: ceoloide/switch_gateron_ks27_ks33
+        where: /^matrix_|^thumbs_/
+        params:
+          from: "{{column_net}}"
+          to: "{{colrow}}_sw"
+          reversible: true
+          hotswap: true
+          solder: true
+
+      # ── SOD-123 / through-hole diodes (1 per switch) ──────────────────────
+      - what: diode
+        where: /^matrix_|^thumbs_/
+        adjust:
+          shift: [0, -5]
+        params:
+          from: "{{colrow}}_sw"
+          to: "{{row_net}}"
+
+      # ── nice!nano MCU ─────────────────────────────────────────────────────
+      # Pin names follow the promicro footprint convention used by Ergogen's
+      # built-in footprints (RAW/VCC/GND + D0..D21 map to physical pads).
+      # Exact GPIO naming depends on the footprint JS used; we list nets here
+      # so they appear in the netlist for manual assignment in KiCad.
+      - what: promicro
+        where: controller_mcu_pad
+        params:
+          P1: col0
+          P0: col1
+          P4: col2
+          P5: col3
+          P6: col4
+          P7: col5
+          P8: row0
+          P9: row1
+          P10: row2
+          P16: row3
+          P14: enc_a
+          P15: enc_b
+          P18: enc_sw
+          P2: sda
+          P3: scl
+          RAW: bat_switched
+          GND: GND
+          VCC: VCC
+
+      # ── Rotary encoder (EC11) ─────────────────────────────────────────────
+      - what: rotary
+        where: controller_encoder_pad
+        params:
+          A: enc_a
+          B: enc_b
+          C: GND
+          S1: enc_sw
+          S2: GND
+
+      # ── OLED (4-pin I²C header) ───────────────────────────────────────────
+      - what: oled
+        where: controller_oled_pad
+        params:
+          SDA: sda
+          SCL: scl
+          VCC: VCC
+          GND: GND
+
+      # ── Reset / boot button ───────────────────────────────────────────────
+      - what: button
+        where: controller_rst_pad
+        params:
+          from: rst
+          to: GND
+
+      # ── Power slide switch ─────────────────────────────────────────────────
+      - what: slider
+        where: controller_pwr_pad
+        params:
+          from: bat_raw
+          to: bat_switched
+
+      # ── JST PH 2-pin battery connector ────────────────────────────────────
+      - what: jstph
+        where: controller_jst_pad
+        params:
+          pos: bat_raw
+          neg: GND
+
+      # ── Battery solder pads (fallback) ────────────────────────────────────
+      - what: pad
+        where: controller_jst_pad
+        adjust:
+          shift: [8, 0]
+        params:
+          net: bat_raw
+
+      - what: pad
+        where: controller_jst_pad
+        adjust:
+          shift: [12, 0]
+        params:
+          net: GND
+
+      # ── Mouse-bite perforations ──────────────────────────────────────────
+      # NOTE: 'mouse_bite' is not an Ergogen built-in footprint.
+      # Add mouse-bite perforations manually in KiCad along the Edge.Cuts
+      # layer at the two breakaway bridges:
+      #   - Between matrix_outer and matrix_pinky columns
+      #   - Between thumbs_t3 and thumbs_t4 keys
