@@ -632,7 +632,7 @@
         "uuid": "603afaa0-4142-4673-b835-76ba767ab9eb"
       }
     ],
-    "used_designators": "PAD\\-1,PAD+1",
+    "used_designators": "SW21,D25",
     "variants": []
   },
   "sheets": [

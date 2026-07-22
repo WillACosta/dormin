@@ -2762,6 +2762,12 @@
 		(uuid "53c4ba6f-e416-480b-b681-dd3f1b715bfa")
 	)
 	(junction
+		(at 273.05 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58ce7820-22ec-4c2e-b57f-49748281df9d")
+	)
+	(junction
 		(at 209.55 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2868,6 +2874,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c67c57be-e915-4b03-83ac-6a17fb008347")
+	)
+	(junction
+		(at 250.19 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d61c2637-b6d7-435b-b2f4-1d5943d0f747")
 	)
 	(junction
 		(at 236.22 60.96)
@@ -3205,6 +3217,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 36.83) (xy 273.05 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e5c9014-c326-4e69-a694-91cc3015bfb0")
+	)
+	(wire
+		(pts
 			(xy 39.116 146.558) (xy 39.116 157.48)
 		)
 		(stroke
@@ -3285,6 +3307,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 44.45) (xy 262.89 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8264a58c-0d72-4890-9b03-e431ce85b26c")
+	)
+	(wire
+		(pts
 			(xy 236.22 44.45) (xy 250.19 44.45)
 		)
 		(stroke
@@ -3295,7 +3327,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 29.21) (xy 273.05 53.34)
+			(xy 273.05 29.21) (xy 273.05 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5526,6 +5558,86 @@
 			(project "dormin-rev_1.0"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 267.97 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "11755adb-94aa-4bf6-b223-c466f6026138")
+		(property "Reference" "SW21"
+			(at 267.97 32.512 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 267.97 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WillKeebs_Kicad_Gateron:SW_MXchoc_HS_1u"
+			(at 267.97 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 267.97 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "338d323b-63b2-44a4-9657-b47a9e27e52a")
+		)
+		(pin "1"
+			(uuid "7ddd1568-1ae1-46ff-9456-f92146251a94")
+		)
+		(instances
+			(project "dormin-rev_1.0"
+				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -9014,7 +9126,7 @@
 		(dnp no)
 		(uuid "9dbcd28e-77cc-41e0-801c-723f6b441bfb")
 		(property "Reference" "PAD+1"
-			(at 123.952 151.13 90)
+			(at 125.222 151.384 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9565,6 +9677,110 @@
 			(project "dormin-rev_1.0"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 262.89 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b748f4ef-c998-4b80-9cc1-d10e9b0f523e")
+		(property "Reference" "D25"
+			(at 265.176 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 265.43 41.9099 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 267.335 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 262.89 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 262.89 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 262.89 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 262.89 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0022d50e-5c5f-4497-8824-45df2392e7f6")
+		)
+		(pin "2"
+			(uuid "201a7282-fe3e-4572-8716-f5e5dd7fa823")
+		)
+		(instances
+			(project "dormin-rev_1.0"
+				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
+					(reference "D25")
 					(unit 1)
 				)
 			)
