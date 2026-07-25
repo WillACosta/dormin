@@ -24,8 +24,8 @@ units:
 # ------------------------------------------------------------------------------
 points:
   key:
-    padding: u
-    spread: u
+    padding: cx
+    spread: cy
     tags:
       - key
 
@@ -33,13 +33,13 @@ points:
     matrix:
       columns:
         outer:
-          # rows.top.skip: true
+          rows.bottom.skip: true
         pinky:
-          # key:
-            # stagger: u/2
-        ring:
           key:
             stagger: u/2
+        ring:
+          key:
+            stagger: 4
         middle:
           key:
             stagger: 4
@@ -148,3 +148,22 @@ outlines:
     - what: outline
       name: _keycaps
       operation: stack
+
+# ------------------------------------------------------------------------------
+# PCBS
+# ------------------------------------------------------------------------------
+pcbs:
+  dormin:
+    outlines:
+      - outline: panel
+        layer: Edge.Cuts
+    footprints:
+      choc_switches:
+        what: choc
+        where: true
+        params:
+          from: "{{colrow}}_from"
+          to: "{{colrow}}_to"
+          hotswap: true
+          keycaps: true
+          reverse: false

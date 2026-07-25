@@ -30,11 +30,15 @@ Minimalist and easy-to-remember colors (Nuphy inspired).
 🔵🔵🔵 = [Solid] (Right) Split Linked
 🔵🔵🔵 = [Breathing] (Right) Split disconnected
 
+⚪⚪⚪ = [Solid] (Left) USB connected
+
 **Battery**
 
 🟢🟢🟢 = [Solid] (Left/Right) 80 - 100%
 🟡🟡⚫ = [Solid] (Left/Right) 40 - 79%
 🔴⚫⚫ = [Solid] (Left/Right) < 40%
+
+🟢🟢🟢 = [Breathing] (Left/Right) Charging
 
 **Layers**
 
@@ -44,6 +48,13 @@ Number = None
 Media = 🔵 (Cyan)
 Dev = None
 Extra = 🟣
+
+LEDs are activated in two moments:
+
+- On boot it shows connection state and battery level, a solid color for 2s then turn off;
+- On demand by using specific combos;
+
+When not in use they are turned off to energy saving purpose.
 
 ## ARGB and LP5012 LED Driver
 
