@@ -24,8 +24,8 @@ units:
 # ------------------------------------------------------------------------------
 points:
   key:
-    padding: cx
-    spread: cy
+    padding: u
+    spread: u
     tags:
       - key
 
