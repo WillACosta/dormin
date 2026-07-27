@@ -18,7 +18,9 @@ units:
   cx: 18
   cy: 18
   sc: 14
-  m: 4
+  m_pcb: 1.5     # Cost-effective PCB margin (1.5mm beyond 1U pitch)
+  m_plate: 2.0   # Top plate margin (2.0mm beyond 1U pitch)
+  cnc_gap: 0.4   # CNC machining clearance gap for unibody cavity
 
 # ------------------------------------------------------------------------------
 # POINTS
@@ -97,10 +99,16 @@ outlines:
         - cy
       fillet: 2
 
-  raw:
+  _pcb_bounds:
     - what: rectangle
       where: key
-      size: [u+m*2, u+m*2]
+      size: [u + m_pcb * 2, u + m_pcb * 2]
+      corner: 2.5
+
+  _plate_bounds:
+    - what: rectangle
+      where: key
+      size: [u + m_plate * 2, u + m_plate * 2]
       corner: 3
 
   switch_cutouts:
@@ -115,30 +123,25 @@ outlines:
       where: key
       radius: 1
 
-  panel:
+  # Outline Ref for PCB (Minimal cost-effective margin for manufacturing)
+  pcb:
     - what: outline
-      name: raw
+      name: _pcb_bounds
 
-  switch_plate:
+  # Outline Ref for Top Plate (With MX switch cutouts for CNC aluminum unibody)
+  top_plate:
     main:
       what: outline
-      name: panel
+      name: _plate_bounds
     keyholes:
       what: outline
       name: switch_cutouts
       operation: subtract
 
-  pcbref:
-    - what: outline
-      name: panel
-      operation: stack
-    - what: outline
-      name: _raw_keys
-      operation: stack
-
+  # Outline for Preview (Visualization with rounded keycaps)
   preview:
     - what: outline
-      name: panel
+      name: _plate_bounds
       operation: stack
     - what: outline
       name: _keycaps
@@ -150,7 +153,7 @@ outlines:
 pcbs:
   dormin:
     outlines:
-      - outline: panel
+      - outline: pcb
         layer: Edge.Cuts
     footprints:
       choc_switches:
