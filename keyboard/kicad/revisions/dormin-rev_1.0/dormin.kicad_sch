@@ -5927,7 +5927,7 @@
 			(uuid "7c8e24ad-e5fc-4652-886a-2a411074d059")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D10")
 					(unit 1)
@@ -6031,7 +6031,7 @@
 			(uuid "dece1845-6f1f-429a-93e4-0097b4398b45")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D14")
 					(unit 1)
@@ -6106,7 +6106,7 @@
 			)
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "MH3")
 					(unit 1)
@@ -6186,7 +6186,7 @@
 			(uuid "13ca3efe-921a-4891-b975-c19be8388b87")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "RSW1")
 					(unit 1)
@@ -6264,7 +6264,7 @@
 			(uuid "c6eda4c0-6af8-4825-bf30-645e1fff828d")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "#FLG02")
 					(unit 1)
@@ -6368,7 +6368,7 @@
 			(uuid "f4072b3e-ee53-4636-874f-7d8814e8759c")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D9")
 					(unit 1)
@@ -6446,7 +6446,7 @@
 			(uuid "5fce6ae7-4adc-41dd-b1a8-90d5fedce179")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "#PWR024")
 					(unit 1)
@@ -6525,7 +6525,7 @@
 			(uuid "9cf3a151-9ad9-417d-adc4-43311e11bcca")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "#PWR019")
 					(unit 1)
@@ -6603,7 +6603,7 @@
 			(uuid "08be057f-f246-446a-a3fb-b1f001bc7d69")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "#PWR020")
 					(unit 1)
@@ -6683,7 +6683,7 @@
 			(uuid "2956245b-1bc7-440a-96e2-5591ddd73694")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "#PWR08")
 					(unit 1)
@@ -6771,7 +6771,7 @@
 			(uuid "55b0939d-b3c7-42ca-a8b0-624efba3391b")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "RES1")
 					(unit 1)
@@ -6851,7 +6851,7 @@
 			(uuid "baf61845-9faa-4a99-84d4-bd3430206d51")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "#PWR03")
 					(unit 1)
@@ -6931,7 +6931,7 @@
 			(uuid "214bee01-797c-4eec-b64b-74a1268d6911")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "SW9")
 					(unit 1)
@@ -7011,7 +7011,7 @@
 			(uuid "c55aea96-1483-41a7-8ec2-54ee50b92d7d")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "SW7")
 					(unit 1)
@@ -7091,7 +7091,7 @@
 			(uuid "9affe497-c019-4320-b84d-8a94212bdd87")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "SW16")
 					(unit 1)
@@ -7195,7 +7195,7 @@
 			(uuid "f81ea1ed-8445-4f0f-b22b-4fb147814038")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D3")
 					(unit 1)
@@ -7273,7 +7273,7 @@
 			(uuid "9183f34b-30be-4f89-9005-d165db0f62ae")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "TP2")
 					(unit 1)
@@ -7361,7 +7361,7 @@
 			(uuid "59f14287-6597-4a76-8647-60501bcd88e8")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D23")
 					(unit 1)
@@ -7441,7 +7441,7 @@
 			(uuid "4b8215a6-1822-4755-aa2f-0635f36fba3a")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "SW1")
 					(unit 1)
@@ -7521,7 +7521,7 @@
 			(uuid "455ab5d9-82c1-44e9-a1db-d8240563be60")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "SW12")
 					(unit 1)
@@ -7625,7 +7625,7 @@
 			(uuid "b5f80e44-83c8-4ccc-bb80-9ea26538b564")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D8")
 					(unit 1)
@@ -7729,7 +7729,7 @@
 			(uuid "87a465e5-bc2b-4038-a29e-f209d09c830c")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D19")
 					(unit 1)
@@ -7808,7 +7808,7 @@
 			(uuid "8bc3aa4e-ae6d-4d30-abd1-7182039cb9de")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "#PWR07")
 					(unit 1)
@@ -7887,7 +7887,7 @@
 			(uuid "c1d6af8b-96d5-4eb5-aa59-766619e5c653")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "#PWR023")
 					(unit 1)
@@ -7966,7 +7966,7 @@
 			(uuid "8d5e5cc3-5697-4677-8e9e-42efd24a5422")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "#PWR021")
 					(unit 1)
@@ -8046,7 +8046,7 @@
 			(uuid "319e738f-67e3-48c7-a72f-6c910fab3ef2")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "SW17")
 					(unit 1)
@@ -8121,7 +8121,7 @@
 			)
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "MH4")
 					(unit 1)
@@ -8236,7 +8236,7 @@
 			(uuid "324b17d1-6e0c-4b87-a66c-8ef3703ca596")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "BT1")
 					(unit 1)
@@ -8340,7 +8340,7 @@
 			(uuid "db2b5c8b-e5b9-4a08-8f27-c1e4e1458001")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D12")
 					(unit 1)
@@ -8444,7 +8444,7 @@
 			(uuid "8a0e9299-cd51-4d00-8628-251d6ac6fadc")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D2")
 					(unit 1)
@@ -8522,7 +8522,7 @@
 			(uuid "6de326d1-5e63-4b3c-8c95-74364119c34f")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "#FLG01")
 					(unit 1)
@@ -8599,7 +8599,7 @@
 			(uuid "4c2b4896-2ea5-43ad-9290-68f602ecc2c0")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "#PWR017")
 					(unit 1)
@@ -8679,7 +8679,7 @@
 			(uuid "62a53bc5-7c9d-410a-9d5e-8047938b68e2")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "SW20")
 					(unit 1)
@@ -8783,7 +8783,7 @@
 			(uuid "41900a27-d7f5-4b8d-8224-70470848379e")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D15")
 					(unit 1)
@@ -8887,7 +8887,7 @@
 			(uuid "7ad2930a-bd0a-4746-8331-fb8e9df688da")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D20")
 					(unit 1)
@@ -8962,7 +8962,7 @@
 			)
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "MH2")
 					(unit 1)
@@ -9066,7 +9066,7 @@
 			(uuid "f6e11983-9d40-4674-ab80-948d7e63bdad")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D25")
 					(unit 1)
@@ -9170,7 +9170,7 @@
 			(uuid "46804fd1-a8e8-4c52-b9b3-09ec45c14ed9")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D5")
 					(unit 1)
@@ -9250,7 +9250,7 @@
 			(uuid "ff33dd84-09d1-4b9f-a6da-6a34c16f9c7d")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "SW3")
 					(unit 1)
@@ -9354,7 +9354,7 @@
 			(uuid "62b8c477-84dc-4470-b9bb-86caaf9f362c")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D7")
 					(unit 1)
@@ -9432,7 +9432,7 @@
 			(uuid "3e9c9b51-4073-4aa1-848b-348f557f63d5")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "#PWR016")
 					(unit 1)
@@ -9512,7 +9512,7 @@
 			(uuid "7fcae002-53b6-456c-9e86-28991bbf9331")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "SW10")
 					(unit 1)
@@ -9616,7 +9616,7 @@
 			(uuid "046b39a6-3242-4498-b5b6-c756b76f742e")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D16")
 					(unit 1)
@@ -9703,7 +9703,7 @@
 			(uuid "45410e58-24d1-45c6-957f-e7811883c11b")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "U2")
 					(unit 1)
@@ -9783,7 +9783,7 @@
 			(uuid "61eee294-c9d4-4573-888c-845dc2d1f7cd")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "SW8")
 					(unit 1)
@@ -9861,7 +9861,7 @@
 			(uuid "b5df82bd-5c05-48d9-9183-7b94fa788efe")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "TP1")
 					(unit 1)
@@ -9939,7 +9939,7 @@
 			(uuid "a7e1ac87-fc6b-4bc8-b19e-f59de59b914e")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "#PWR06")
 					(unit 1)
@@ -10019,7 +10019,7 @@
 			(uuid "16a9f665-6238-450e-a146-934976bc5e77")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "SW19")
 					(unit 1)
@@ -10098,7 +10098,7 @@
 			(uuid "47417fc7-cc41-4272-ae1e-9a4e5336a4d0")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "#PWR02")
 					(unit 1)
@@ -10177,7 +10177,7 @@
 			(uuid "f5a52c12-2618-459f-ad1e-41e83b4f9429")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "#PWR01")
 					(unit 1)
@@ -10281,7 +10281,7 @@
 			(uuid "3194d56b-1c5f-46f3-9dd0-a8137caeb140")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D11")
 					(unit 1)
@@ -10361,7 +10361,7 @@
 			(uuid "622452ca-cb16-4276-813b-fe7ab494e14f")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "SW11")
 					(unit 1)
@@ -10465,7 +10465,7 @@
 			(uuid "7be3b01e-dd7e-4fd7-a709-d9e786f27ba9")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D17")
 					(unit 1)
@@ -10545,7 +10545,7 @@
 			(uuid "c5d6b18e-fbd7-452b-af27-71fe2b9e82f4")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "SW4")
 					(unit 1)
@@ -10623,7 +10623,7 @@
 			(uuid "81bd6eb6-9eda-4b4c-808c-56362bf55e12")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "#PWR014")
 					(unit 1)
@@ -10705,7 +10705,7 @@
 			(uuid "94ca9446-dfa3-4ed7-93d6-b68e5f709f60")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "PSW1")
 					(unit 1)
@@ -10785,7 +10785,7 @@
 			(uuid "b3a31776-0250-4250-8fe3-bae11e24e8b3")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "SW2")
 					(unit 1)
@@ -10873,7 +10873,7 @@
 			(uuid "d11cc4c8-63f8-49a9-8cdc-5028f60cbe5b")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D24")
 					(unit 1)
@@ -11036,7 +11036,7 @@
 			(uuid "00f397fb-4efa-4888-9f85-40047fe1cc93")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "U3")
 					(unit 1)
@@ -11116,7 +11116,7 @@
 			(uuid "de5520f2-fcb5-4f4a-bbaf-245c45fe2ceb")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "SW6")
 					(unit 1)
@@ -11196,7 +11196,7 @@
 			(uuid "51269a80-7356-4412-8b11-1d3aced9f4ac")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "SW14")
 					(unit 1)
@@ -11276,7 +11276,7 @@
 			(uuid "44698293-7e34-4066-bd11-4baaceb094d9")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "SW18")
 					(unit 1)
@@ -11380,7 +11380,7 @@
 			(uuid "d14690f0-c3dd-47fe-b94d-ffc248ac14eb")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D13")
 					(unit 1)
@@ -11484,7 +11484,7 @@
 			(uuid "fa53bb21-8115-4e75-bd35-e5269569950d")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D1")
 					(unit 1)
@@ -11559,7 +11559,7 @@
 			)
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "MH1")
 					(unit 1)
@@ -11639,7 +11639,7 @@
 			(uuid "f1708062-486e-469b-8dfd-d0ef8c471c36")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "SW15")
 					(unit 1)
@@ -11727,7 +11727,7 @@
 			(uuid "b84fdb6c-43e3-4400-9047-229d099187f4")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D21")
 					(unit 1)
@@ -11806,7 +11806,7 @@
 			(uuid "0a049451-2031-47bc-b070-e06ca63115b2")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "#PWR018")
 					(unit 1)
@@ -11886,7 +11886,7 @@
 			(uuid "42857258-2941-4d0c-9147-dde3c7c6d098")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "SW13")
 					(unit 1)
@@ -11974,7 +11974,7 @@
 			(uuid "069646e2-7019-4de9-9188-3c9784e4f678")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D22")
 					(unit 1)
@@ -12078,7 +12078,7 @@
 			(uuid "29ea2355-b6a8-4809-a708-18ca00ed0225")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D6")
 					(unit 1)
@@ -12174,7 +12174,7 @@
 			(uuid "a08b1161-00c3-4f3e-a288-6766c8653af4")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "J2")
 					(unit 1)
@@ -12254,7 +12254,7 @@
 			(uuid "bf5a4ff6-aa67-40e1-be51-5d8d42fb90b4")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "SW5")
 					(unit 1)
@@ -12334,7 +12334,7 @@
 			(uuid "7bfd81ff-ad15-49fe-8493-1ace8ded219a")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "JST1")
 					(unit 1)
@@ -12438,7 +12438,7 @@
 			(uuid "9cb57cfd-184a-4a22-b0ab-a9f5bb70a3bc")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D18")
 					(unit 1)
@@ -12542,7 +12542,7 @@
 			(uuid "5a29c6a3-8212-405d-8946-202e4626f53f")
 		)
 		(instances
-			(project "dormin-rev_1.0"
+			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
 					(reference "D4")
 					(unit 1)

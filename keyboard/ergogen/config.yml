@@ -68,12 +68,12 @@ points:
           key:
             stagger: -2.7
             splay: -15
-            spread: u+1.1
+            spread: u+2.5
         outer:
           key:
             stagger: -2.5
             splay: -14
-            spread: u+1
+            spread: u+2.5
       rows:
         only:
   mirror:
@@ -155,7 +155,7 @@ pcbs:
     footprints:
       choc_switches:
         what: SW_MX_Choc_Hotswap
-        where: /^matrix_|^thumbs_/
+        where: true
         params:
           designator: SW
           value: SW_Push
