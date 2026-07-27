@@ -34,7 +34,7 @@ points:
     matrix:
       columns:
         outer:
-          # rows.bottom.skip: true
+          rows.bottom.skip: true
         pinky:
           key:
             stagger: u/2
@@ -101,7 +101,7 @@ outlines:
     - what: rectangle
       where: key
       size: [u+m*2, u+m*2]
-      corner: 2
+      corner: 3
 
   switch_cutouts:
     - what: rectangle
