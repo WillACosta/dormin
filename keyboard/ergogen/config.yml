@@ -1,0 +1,164 @@
+# ==============================================================================
+# DORMIN KEYBOARD - ERGOGEN V4 CONFIGURATION
+# 40 — key Split Keyboard
+# ==============================================================================
+
+meta:
+  name: "Dormin Keyboard"
+  author: "William A. Costa"
+  version: "1.0.0"
+  engine: 4.1.0
+
+# ------------------------------------------------------------------------------
+# UNITS
+# ------------------------------------------------------------------------------
+units:
+  # MX standard spacing: 19.05mm (3/4 inch, the Cherry MX spec)
+  u: 19.05
+  cx: 18
+  cy: 18
+  sc: 14
+  m: 4
+
+# ------------------------------------------------------------------------------
+# POINTS
+# ------------------------------------------------------------------------------
+points:
+  key:
+    padding: u
+    spread: u
+    tags:
+      - key
+
+  zones:
+    matrix:
+      columns:
+        outer:
+          # rows.bottom.skip: true
+        pinky:
+          key:
+            stagger: u/2
+        ring:
+          key:
+            stagger: u/4
+        middle:
+          key:
+            stagger: u/4
+        index:
+          key:
+            stagger: -u/4
+        inner:
+          key:
+            stagger: -u/4
+      rows:
+        bottom:
+        home:
+        top:
+
+    thumbs:
+      anchor:
+        ref: matrix_index_bottom
+        shift: [-0.1u, -1.30u]
+      columns:
+        inner:
+          key:
+            stagger: 0
+            splay: 0
+        home:
+          key:
+            stagger: -2.7
+            splay: -15
+            spread: u+1.1
+        outer:
+          key:
+            stagger: -2.5
+            splay: -14
+            spread: u+1
+      rows:
+        only:
+  mirror:
+    ref: matrix_pinky_home
+    distance: 230
+
+# ------------------------------------------------------------------------------
+# OUTLINES
+# ------------------------------------------------------------------------------
+outlines:
+  _raw_keys:
+    - what: rectangle
+      where: [key]
+      size: [cx, cy]
+
+  _keycaps:
+    - what: rectangle
+      where: [key]
+      size:
+        - cx
+        - cy
+      fillet: 2
+
+  raw:
+    - what: rectangle
+      where: key
+      size: [u+m*2, u+m*2]
+      corner: 2
+
+  switch_cutouts:
+    - what: rectangle
+      where: true
+      asym: left
+      size: sc
+      bound: false
+
+  _keypos:
+    - what: circle
+      where: key
+      radius: 1
+
+  panel:
+    - what: outline
+      name: raw
+
+  switch_plate:
+    main:
+      what: outline
+      name: panel
+    keyholes:
+      what: outline
+      name: switch_cutouts
+      operation: subtract
+
+  pcbref:
+    - what: outline
+      name: panel
+      operation: stack
+    - what: outline
+      name: _raw_keys
+      operation: stack
+
+  preview:
+    - what: outline
+      name: panel
+      operation: stack
+    - what: outline
+      name: _keycaps
+      operation: stack
+
+# ------------------------------------------------------------------------------
+# PCBS
+# ------------------------------------------------------------------------------
+pcbs:
+  dormin:
+    outlines:
+      - outline: panel
+        layer: Edge.Cuts
+    footprints:
+      choc_switches:
+        what: SW_MX_Choc_Hotswap
+        where: /^matrix_|^thumbs_/
+        params:
+          designator: SW
+          value: SW_Push
+          from: "{{colrow}}_from"
+          to: "{{colrow}}_to"
+          keycaps: true
