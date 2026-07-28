@@ -1,0 +1,254 @@
+# ==============================================================================
+# DORMIN KEYBOARD - ERGOGEN V4 CONFIGURATION
+# 40 — key Split Keyboard
+# ==============================================================================
+
+meta:
+  name: "Dormin Keyboard"
+  author: "William A. Costa"
+  version: "1.0.0"
+  engine: 4.1.0
+
+# ------------------------------------------------------------------------------
+# UNITS
+# ------------------------------------------------------------------------------
+units:
+  # MX standard spacing: 19.05mm (3/4 inch, the Cherry MX spec)
+  u: 19.05
+  cx: 18
+  cy: 18
+  sc: 14
+  m_pcb: 1.5     # Cost-effective PCB margin (1.5mm beyond 1U pitch)
+  m_plate: 2.0   # Top plate margin (2.0mm beyond 1U pitch)
+  cnc_gap: 0.4   # CNC machining clearance gap for unibody cavity
+
+# ------------------------------------------------------------------------------
+# POINTS
+# ------------------------------------------------------------------------------
+points:
+  key:
+    padding: u
+    spread: u
+    tags:
+      - key
+
+  zones:
+    matrix:
+      columns:
+        outer:
+          # rows.bottom.skip: true
+        pinky:
+          key:
+            stagger: u/2
+        ring:
+          key:
+            stagger: u/4
+        middle:
+          key:
+            stagger: u/4
+        index:
+          key:
+            stagger: -u/4
+        inner:
+          key:
+            stagger: -u/4
+      rows:
+        bottom:
+        home:
+        top:
+
+    thumb:
+      anchor:
+        ref: matrix_index_bottom
+        shift: [-0.1u, -1.30u]
+      columns:
+        inner:
+          key:
+            stagger: 0
+            splay: 0
+        home:
+          key:
+            stagger: -2.7
+            splay: -15
+            spread: u+2.5
+        outer:
+          key:
+            stagger: -2.5
+            splay: -14
+            spread: u+2.5
+      rows:
+        only:
+  # mirror:
+  #   ref: matrix_pinky_home
+  #   distance: 230
+
+# ------------------------------------------------------------------------------
+# OUTLINES
+# ------------------------------------------------------------------------------
+outlines:
+  _raw_keycap:
+    - what: rectangle
+      where: true
+      size: [cx, cy]
+
+  _board_outline:
+    - what: polygon
+      fillet: 2
+      points:
+        - ref: thumb_outer_only
+          shift: [0.6cx, 0.6cy]
+        - ref: thumb_outer_only
+          shift: [0.6cx, -0.6cy]
+        - ref: thumb_outer_only
+          shift: [-0.4cx, -0.6cy]
+
+        - ref: thumb_home_only
+          shift: [0.4cx, -0.6cy]
+        - ref: thumb_home_only
+          shift: [-0.4cx, -0.6cy]
+
+        - ref: thumb_inner_only
+          shift: [0.4cx, -0.6cy]
+        - ref: thumb_inner_only
+          shift: [-0.6cx, -0.6cy]
+
+        - ref: matrix_outer_bottom
+          shift: [3cx, -0.6cy]
+        - ref: matrix_outer_bottom
+          shift: [0.6cx, -0.6cy]
+        - ref: matrix_outer_bottom
+          shift: [-0.6cx, -0.6cy]
+
+        - ref: matrix_outer_top
+          shift: [-0.6cx, 0.6cy]
+        - ref: matrix_outer_top
+          shift: [0.4cx, 0.6cy]
+
+        - ref: matrix_pinky_top
+          shift: [-0.5cx, 0.6cy]
+        - ref: matrix_pinky_top
+          shift: [0.4cx, 0.6cy]
+
+        - ref: matrix_ring_top
+          shift: [-0.5cx, 0.6cy]
+        - ref: matrix_ring_top
+          shift: [0.4cx, 0.6cy]
+
+        - ref: matrix_middle_top
+          shift: [-0.4cx, 0.61cy]
+        - ref: matrix_middle_top
+          shift: [0.4cx, 0.6cy]
+
+        - ref: matrix_index_top
+          shift: [-0.4cx, 0.6cy]
+        - ref: matrix_index_top
+          shift: [0.5cx, 0.6cy]
+
+        - ref: matrix_inner_top
+          shift: [-0.4cx, 0.6cy]
+        - ref: matrix_inner_top
+          shift: [0.5cx, 0.6cy]
+
+        - ref: matrix_inner_top
+          shift: [0.6cx, 0.4cy]
+        - ref: matrix_inner_top
+          shift: [2cx, 0.4cy]
+
+        - ref: matrix_inner_bottom
+          shift: [2cx, 0]
+
+  _keycap_outlines:
+    - what: rectangle
+      where: true
+      size: [cx, cy]
+      fillet: 2
+
+  _board_outline_raw:
+    - what: rectangle
+      where: key
+      size: [u + m_pcb * 2, u + m_pcb * 2]
+      corner: 2
+
+  _switch_cutouts:
+    - what: rectangle
+      where: true
+      asym: left
+      size: sc
+      bound: false
+
+  preview:
+    - what: outline
+      name: _board_outline
+      operation: stack
+    - what: outline
+      name: _keycap_outlines
+      operation: stack
+
+  pcb_ref:
+    - what: outline
+      name: _board_outline
+      operation: stack
+    - what: outline
+      name: _raw_keycap
+      operation: stack
+
+  pcb_ref_raw:
+    - what: outline
+      name: _board_outline_raw
+    - what: outline
+      name: _raw_keycap
+      operation: stack
+
+  top_plate:
+    main:
+      what: outline
+      name: _board_outline
+    keyholes:
+      what: outline
+      name: _switch_cutouts
+      operation: subtract
+
+# ------------------------------------------------------------------------------
+# CASES (Sandwich Case)
+# ------------------------------------------------------------------------------
+cases:
+  top_plate_3d:
+    - what: outline
+      name: top_plate
+      extrude: 1.2
+
+  bottom_case_3d:
+    - what: outline
+      name: _board_outline
+      extrude: 2.5
+
+# ------------------------------------------------------------------------------
+# PCBS
+# ------------------------------------------------------------------------------
+pcbs:
+  dormin:
+    outlines:
+      - outline: _board_outline
+        layer: Edge.Cuts
+
+    footprints:
+      # choc_switches:
+      #   what: SW_MX_Choc_Hotswap
+      #   where: true
+      #   params:
+      #     designator: SW
+      #     value: SW_Push
+      #     from: "{{colrow}}_from"
+      #     to: "{{colrow}}_to"
+      #     keycaps: true
+
+      - what: ceoloide/switch_mx
+        where: /^matrix_|^thumb_/
+        params:
+          from: "{{column_net}}"
+          to: "{{colrow}}_sw"
+          reversible: true
+          hotswap: true
+          solder: true
+          include_keycap: true
+          include_corner_marks: true
