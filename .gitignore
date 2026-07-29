@@ -3,5 +3,22 @@ build
 .env
 generated
 .history
-*.lck
 plots
+
+# KiCad backups and autosaves
+*-bak
+*.bak
+*.lck
+*.bck
+_autosave-*
+
+# Local settings and UI caches
+*.kicad_prl
+fp-info-cache
+
+# Generated fabrication outputs
+gerber/
+gerbers/
+production/
+*.zip
+*.csv
