@@ -17,8 +17,8 @@ _autosave-*
 fp-info-cache
 
 # Generated fabrication outputs
-gerber/
-gerbers/
-production/
-*.zip
-*.csv
+# gerber/
+# gerbers/
+# production/
+# *.zip
+# *.csv
