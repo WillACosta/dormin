@@ -8,9 +8,12 @@
 	)
 	(paper "A3")
 	(title_block
-		(title "dormin")
+		(title "Dormin Keyboard")
+		(date "2026-07-30")
 		(rev "1.0.0")
 		(company "William A. Costa")
+		(comment 1 "A split keyboard that focus on functionality and minimalism.")
+		(comment 2 "D O R M I N")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -7810,7 +7813,7 @@
 		(uuid "861c90c8-d04c-4fa3-bf81-c4bba708246d")
 	)
 	(gr_line
-		(start 134.205436 155.758231)
+		(start 134.205436 155.51)
 		(end 134.205436 99.802445)
 		(stroke
 			(width 0.15)
@@ -7818,6 +7821,16 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "5e2fce6e-c573-4fa6-8692-2ad3a1ad872c")
+	)
+	(gr_line
+		(start 136.2 157.511897)
+		(end 195.825 157.511897)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "db6e139d-b4f0-4187-8320-eb7520b13864")
 	)
 	(gr_line
 		(start 136.205436 97.802445)
@@ -7830,25 +7843,15 @@
 		(uuid "b077e1c3-6d68-4c33-b02f-3b99b7cf08f1")
 	)
 	(gr_arc
-		(start 136.205436 157.767974)
-		(mid 134.791222 157.182188)
-		(end 134.205436 155.767974)
+		(start 136.205436 157.511887)
+		(mid 134.791225 156.926124)
+		(end 134.205436 155.511923)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "bb8d00dd-4a29-4927-a9e7-d781a8efc738")
-	)
-	(gr_line
-		(start 136.205436 157.767974)
-		(end 195.82037 157.791768)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "db6e139d-b4f0-4187-8320-eb7520b13864")
 	)
 	(gr_line
 		(start 156.567184 97.800768)
@@ -7923,19 +7926,19 @@
 		(uuid "a35fa4a1-69d9-4803-bda4-481ad1ed3866")
 	)
 	(gr_arc
-		(start 195.82037 157.793635)
-		(mid 198.430376 158.434624)
-		(end 200.4465 160.211768)
+		(start 195.825 157.511897)
+		(mid 198.392065 158.12874)
+		(end 200.398608 159.844577)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "1988cc06-a1dd-4f4f-98ae-abe7c45ad545")
+		(uuid "597ddaa5-ee65-40f7-b645-b2e6244d2785")
 	)
 	(gr_line
-		(start 207.927627 176.846289)
-		(end 200.446501 160.211771)
+		(start 207.625 176.4)
+		(end 200.391131 159.85)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -7944,9 +7947,9 @@
 		(uuid "b62ad871-575c-4afe-a987-8af31a606a2c")
 	)
 	(gr_arc
-		(start 209.409618 177.503269)
-		(mid 208.599075 177.331662)
-		(end 207.927627 176.846289)
+		(start 209.409618 177.500515)
+		(mid 208.361284 177.203271)
+		(end 207.625 176.4)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -8110,6 +8113,28 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "756acbd2-c81a-4353-9b69-2a62bc91db37")
+	)
+	(gr_curve
+		(pts
+			(xy 285.295337 252.225913) (xy 285.295337 252.225913) (xy 285.295337 252.225913) (xy 285.295337 252.225913)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7d37fe6f-e6f4-499a-9170-63864fc03edb")
+	)
+	(gr_curve
+		(pts
+			(xy 410.809271 252.233913) (xy 410.809271 252.233913) (xy 410.809271 252.233913) (xy 410.809271 252.233913)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1b5cabbe-a7cd-4360-953a-12211e8de3f0")
 	)
 	(embedded_fonts no)
 )
