@@ -7321,7 +7321,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 100.33 87.63 270)
+		(at 100.33 87.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7331,7 +7331,7 @@
 		(dnp no)
 		(uuid "0f8718df-fea6-45c3-9446-4303b4d48ab7")
 		(property "Reference" "R5"
-			(at 100.33 90.17 90)
+			(at 100.33 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7350,8 +7350,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 100.33 85.852 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 100.33 89.408 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9081,7 +9081,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 121.92 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10511,7 +10511,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 100.33 92.202 90)
 			(hide yes)
 			(show_name no)
@@ -11836,7 +11836,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 114.3 69.85 0)
 			(hide yes)
 			(show_name no)
