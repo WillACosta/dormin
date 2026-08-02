@@ -2,205 +2,287 @@
 
 ## Overview
 
-Dormin uses a **single-zone white LED backlight** inspired by Apple's Magic Keyboard and MacBook keyboards. The goal is to provide a clean, elegant, and power-efficient backlight while keeping the hardware simple, inexpensive, and easy to manufacture with JLCPCB SMT Assembly.
+Dormin uses a **single-zone white LED backlight** inspired by Apple's Magic Keyboard and MacBook keyboards. The objective is to provide a subtle, elegant, and battery-efficient backlight while keeping the hardware simple, inexpensive, and easy to manufacture using JLCPCB SMT Assembly.
 
 Each keyboard half contains:
 
-- One Seeed Studio XIAO nRF52840
-- One PWM-controlled MOSFET
-- One white LED underneath each key
+- One Seeed Studio XIAO nRF52840 Plus
+- One AO3400A N-Channel MOSFET
+- One warm white LED underneath each switch
 - One current-limiting resistor per LED
+- Dedicated LED power rail (`LED_VCC`)
+- PWM brightness control
 
-The backlight is controlled as a single lighting zone, allowing global brightness adjustment without requiring a dedicated LED driver.
+The entire backlight is controlled as a **single lighting zone**, allowing global brightness adjustment through PWM without requiring a dedicated LED driver.
 
 ---
 
 # Design Goals
 
 - Apple-inspired appearance
-- Uniform white illumination
-- Low power consumption
-- Minimal BOM
+- Uniform warm white illumination
+- Long battery life
+- Low BOM cost
 - Easy PCB routing
 - JLCPCB SMT Assembly compatible
-- ZMK firmware compatible
-- Battery-friendly
+- ZMK compatible
+- Easy to maintain
+- Future-proof architecture
 
 ---
 
 # Why White Instead of RGB?
 
-Dormin intentionally uses **white LEDs** instead of addressable RGB LEDs (SK6812 / WS2812).
+Dormin intentionally uses **white LEDs** instead of addressable RGB LEDs (WS2812 / SK6812).
 
 ## Advantages
 
 - Lower power consumption
-- Lower PCB complexity
-- Lower firmware complexity
-- Lower manufacturing cost
-- Better battery life
-- Uniform illumination
+- Smaller BOM
+- Simpler firmware
+- Easier PCB routing
+- Longer battery life
 - Cleaner industrial design
-- No unnecessary visual distractions
+- More professional appearance
+- Apple-inspired aesthetic
 
-Since Dormin targets a professional and minimalist aesthetic, colorful lighting animations provide little practical value while increasing cost and reducing battery life.
+RGB animations add significant firmware and hardware complexity while providing little practical value for the intended use of Dormin.
 
 ---
 
 # Why No LED Driver?
 
-Dormin v1 intentionally avoids dedicated LED drivers (IS31FL37xx family).
+Dormin Rev. A intentionally avoids dedicated LED driver ICs (IS31FL37xx family).
 
-Instead, all LEDs are switched simultaneously using a single MOSFET controlled by one PWM GPIO.
+Instead, all LEDs are switched simultaneously using a single PWM-controlled MOSFET.
 
 ## Advantages
 
-- One GPIO required
+- Only one GPIO required
 - Very small BOM
-- Easy schematic
+- Extremely simple schematic
 - Easy PCB routing
 - Excellent battery life
-- Less firmware complexity
+- Minimal firmware complexity
+- Fully supported by ZMK PWM
 
-The trade-off is that all LEDs share the same brightness.
+## Trade-offs
 
----
+Supported:
 
-# Supported Features
-
-- ✅ Backlight ON / OFF
+- ✅ Backlight ON/OFF
 - ✅ Global brightness control
 - ✅ PWM dimming
-- ✅ Smooth fade in/out
+- ✅ Fade in / Fade out
 - ✅ Auto-off after inactivity
-- ✅ Battery-saving modes
 
-## Not Supported
+Not supported:
 
-- ❌ Per-key lighting
-- ❌ Wave animations
-- ❌ Ripple effects
+- ❌ Per-key brightness
 - ❌ Reactive typing
-- ❌ Lighting zones
-
-These features would require a dedicated LED driver.
+- ❌ Ripple animations
+- ❌ RGB effects
+- ❌ Multiple lighting zones
 
 ---
 
-# Bill of Materials (BOM)
+# Power Architecture
 
-| Component | Example Part Number | JLCPCB Assembly | Remarks | PCB / Schematic Notes |
-|-----------|---------------------|-----------------|---------|-----------------------|
-| MCU | Seeed Studio XIAO nRF52840 | No (module) | Main controller | One per keyboard half |
-| White LED | 0603 Warm White LED (4000–4500K) | Yes | Backlight LED | One per key |
-| LED Resistor | 150Ω 1% 0603 | Yes | Current limiting | One resistor per LED |
-| MOSFET | AO3400A (SOT-23) | Yes | Low-side switch | One per keyboard half |
-| Gate Resistor | 100Ω 0603 | Yes | Protects GPIO, reduces switching noise | Between MCU GPIO and MOSFET Gate |
-| Gate Pull-down | 100kΩ 0603 | Yes | Keeps MOSFET OFF during boot | Gate to GND |
-| Decoupling Capacitor | 10µF X5R/X7R 0603 or 0805 | Yes | Stabilizes LED power rail | Place near MOSFET |
+Unlike the MCU and OLED, the backlight **does not use the XIAO's regulated 3.3 V output**.
+
+Instead, the LEDs are powered directly from the battery.
+
+Advantages:
+
+- Lower regulator load
+- Better battery efficiency
+- Lower regulator temperature
+- Higher available current
+- Easier future expansion
+
+The battery voltage is distributed into two independent branches:
+
+- XIAO VBAT input
+- LED_VCC (Backlight power rail)
 
 ---
 
 # Electrical Architecture
 
-- One PWM GPIO controls one MOSFET.
-- The MOSFET switches the ground connection for all LEDs.
-- Each LED has its own resistor to guarantee consistent brightness.
-- Brightness is controlled using PWM generated by the XIAO nRF52840.
-
----
-
-# Simplified Schematic
-
 ```mermaid
 flowchart LR
 
-    MCU["XIAO nRF52840"]
+    BAT["LiPo Battery"]
 
-    GPIO["PWM GPIO"]
+    BRANCH((Power Junction))
 
-    RG["100Ω"]
+    MCU["XIAO nRF52840 Plus"]
+
+    PWM["LED_PWM GPIO"]
+
+    RG["100R"]
 
     MOS["AO3400A<br/>N-MOSFET"]
 
+    RPD["10K"]
+
     GND["GND"]
 
-    VCC["VBAT or 3.3V"]
+    CAP1["10uF"]
+    CAP2["100nF"]
 
     subgraph BACKLIGHT["White Backlight"]
 
-        R1["150Ω"]
+        R1["1K"]
         LED1["LED"]
 
-        R2["150Ω"]
+        R2["1K"]
         LED2["LED"]
 
-        RN["150Ω"]
+        RN["1K"]
         LEDN["LED ..."]
 
     end
 
-    MCU --> GPIO
-    GPIO --> RG
+    BAT --> BRANCH
+
+    BRANCH --> MCU
+
+    BRANCH --> LED_VCC["LED_VCC"]
+
+    LED_VCC --> CAP1
+    LED_VCC --> CAP2
+
+    CAP1 --> GND
+    CAP2 --> GND
+
+    MCU --> PWM
+
+    PWM --> RG
+
     RG --> MOS
 
+    RPD --> GND
+    RPD --> MOS
+
+    LED_VCC --> R1 --> LED1 --> MOS
+    LED_VCC --> R2 --> LED2 --> MOS
+    LED_VCC --> RN --> LEDN --> MOS
+
     MOS --> GND
-
-    VCC --> R1 --> LED1 --> MOS
-    VCC --> R2 --> LED2 --> MOS
-    VCC --> RN --> LEDN --> MOS
 ```
 
 ---
 
-# Recommended PCB Placement
+# Bill of Materials (BOM)
 
-```
-               Switch
-
-          White LED (0603)
-                 │
-            150Ω Resistor
-
-──────────────────────────────────
-
-        (Repeat for every key)
-
-                 │
-      All LED cathodes combined
-                 │
-
-             AO3400A
-          (near the MCU)
-
-          100Ω     100kΩ
-GPIO ─────/\/\/────┐
-                   │
-                 Gate
-                   │
-                  GND
-```
+| Component | Value / Part Number | KiCad Symbol | KiCad Footprint | JLCPCB Assembly | Remarks | PCB / Schematic Notes |
+|-----------|---------------------|--------------|-----------------|-----------------|---------|-----------------------|
+| MCU | Seeed Studio XIAO nRF52840 Plus | `Seeed Studio XIAO nRF52840 Plus` *(Seeed official library)* | `Module:Seeed_XIAO_nRF52840_Plus` | ❌ Module | Main controller | One module per keyboard half |
+| White LED | 0603 Warm White LED (≈4000–4500K) | `Device:LED` | `LED_SMD:LED_0603_1608Metric` | ✅ Yes | White backlight | One LED per switch |
+| LED Current Limiting Resistor | **1K ±1%** | `Device:R` | `Resistor_SMD:R_0603_1608Metric` | ✅ Yes | Current limiting | One resistor per LED (VBAT-powered design) |
+| Gate Resistor | **100R ±1%** | `Device:R` | `Resistor_SMD:R_0603_1608Metric` | ✅ Yes | Limits MOSFET gate charging current | Place close to MOSFET gate |
+| Gate Pull-down Resistor | **10K ±1%** | `Device:R` | `Resistor_SMD:R_0603_1608Metric` | ✅ Yes | Keeps MOSFET OFF during boot | Gate → GND |
+| MOSFET | AO3400A | `Device:Q_NMOS_GSD` | `Package_TO_SOT_SMD:SOT-23` | ✅ Yes | Low-side PWM switch | One per keyboard half |
+| Bulk Capacitor | **10uF X5R/X7R ≥6.3V** | `Device:C` | `Capacitor_SMD:C_0603_1608Metric` *(0805 also acceptable)* | ✅ Yes | Bulk decoupling | Between `LED_VCC` and GND |
+| High-Frequency Capacitor | **100nF X7R** | `Device:C` | `Capacitor_SMD:C_0603_1608Metric` | ✅ Yes | PWM noise filtering | Place next to the 10uF capacitor |
+| Test Point *(Optional)* | Test Pad | `Connector:TestPoint` | `TestPoint:TestPoint_Pad_D1.0mm` | Optional | Debugging | Recommended for `LED_VCC` (optionally `LED_PWM`) |
 
 ---
 
-# Future Upgrade Path
+# PCB Design Guidelines
 
-If a future Dormin revision requires advanced lighting effects (wave, ripple, per-key brightness, reactive typing), the current architecture can be upgraded by replacing the MOSFET-controlled backlight with an I²C LED driver (e.g., IS31FL3731 or IS31FL3741).
+## LED Placement
 
-The mechanical design and LED placement can remain unchanged, minimizing the redesign effort.
+- One LED centered underneath each switch.
+- Keep the LED as close as possible to the switch opening.
+- Maintain consistent orientation across the PCB.
+
+## MOSFET Placement
+
+Place the AO3400A:
+
+- Close to the XIAO module
+- Close to the `LED_PWM` GPIO
+- Close to the main `LED_SWITCH` return path
+
+This minimizes PWM trace length and switching noise.
+
+## Capacitor Placement
+
+Place the **10uF** and **100nF** capacitors:
+
+- Immediately after the `LED_VCC` power entry
+- Close together
+- Before the LED power distribution begins
+
+## Power Routing
+
+Recommended trace widths:
+
+| Signal | Recommended Width |
+|----------|------------------:|
+| BAT+ | 1.0 mm |
+| LED_VCC | 0.5–1.0 mm |
+| LED_SWITCH | 0.5–1.0 mm |
+| LED_PWM | 0.20–0.25 mm |
 
 ---
 
-# Summary
+# Firmware Features
 
-The chosen architecture provides the best balance between aesthetics, simplicity, manufacturability, and battery life.
+Supported by the current hardware:
 
-- Apple-inspired white backlight
-- One PWM GPIO per keyboard half
-- One AO3400A MOSFET per half
+- Backlight ON/OFF
+- Brightness adjustment
+- PWM dimming
+- Fade effects
+- Auto-off after timeout
+- Battery-saving modes
+
+Future firmware may support:
+
+- Ambient light sensor
+- Automatic brightness
+- Sleep fade animation
+
+without requiring any hardware changes.
+
+---
+
+# Future Expansion
+
+The current architecture intentionally leaves room for future revisions.
+
+Possible upgrades include:
+
+- Ferrite bead between `BAT+` and `LED_VCC`
+- Current sensing
+- Polyfuse protection
+- Dedicated LED regulator
+- I²C LED driver
+- Multiple lighting zones
+
+None of these upgrades require changing the LED placement or mechanical design.
+
+---
+
+# Final Design Summary
+
+The Dormin backlight system prioritizes simplicity, efficiency, and longevity over visual effects.
+
+The final architecture consists of:
+
+- White-only backlight
+- Single lighting zone
+- PWM-controlled AO3400A MOSFET
 - One resistor per LED
-- No dedicated LED driver
+- LEDs powered directly from the battery (`VBAT`)
+- Dedicated `LED_VCC` power rail
+- 10uF + 100nF local decoupling
+- No LED driver
 - Fully compatible with ZMK
-- Low component count
-- Easy JLCPCB SMT assembly
-- Ready for future expansion if advanced lighting effects become desirable
+- Optimized for wireless battery-powered operation
+- Easy to manufacture with JLCPCB SMT Assembly
+
+This design closely follows the philosophy used in premium commercial keyboards: minimal hardware complexity, excellent battery life, and a clean, understated lighting experience.
