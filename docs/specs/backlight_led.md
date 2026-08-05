@@ -15,48 +15,13 @@ Each keyboard half contains:
 
 The entire backlight is controlled as a **single lighting zone**, allowing global brightness adjustment through PWM without requiring a dedicated LED driver.
 
----
-
-# Design Goals
-
-- Apple-inspired appearance
-- Uniform warm white illumination
-- Long battery life
-- Low BOM cost
-- Easy PCB routing
-- JLCPCB SMT Assembly compatible
-- ZMK compatible
-- Easy to maintain
-- Future-proof architecture
-
----
-
-# Why White Instead of RGB?
-
-Dormin intentionally uses **white LEDs** instead of addressable RGB LEDs (WS2812 / SK6812).
-
-## Advantages
-
-- Lower power consumption
-- Smaller BOM
-- Simpler firmware
-- Easier PCB routing
-- Longer battery life
-- Cleaner industrial design
-- More professional appearance
-- Apple-inspired aesthetic
-
-RGB animations add significant firmware and hardware complexity while providing little practical value for the intended use of Dormin.
-
----
-
-# Why No LED Driver?
+### Why No LED Driver?
 
 Dormin Rev. A intentionally avoids dedicated LED driver ICs (IS31FL37xx family).
 
 Instead, all LEDs are switched simultaneously using a single PWM-controlled MOSFET.
 
-## Advantages
+#### Advantages
 
 - Only one GPIO required
 - Very small BOM
@@ -66,7 +31,7 @@ Instead, all LEDs are switched simultaneously using a single PWM-controlled MOSF
 - Minimal firmware complexity
 - Fully supported by ZMK PWM
 
-## Trade-offs
+#### Trade-offs
 
 Supported:
 
@@ -83,8 +48,6 @@ Not supported:
 - ❌ Ripple animations
 - ❌ RGB effects
 - ❌ Multiple lighting zones
-
----
 
 # Power Architecture
 
