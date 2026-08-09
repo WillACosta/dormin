@@ -763,13 +763,21 @@
         "uuid": "603afaa0-4142-4673-b835-76ba767ab9eb"
       }
     ],
-    "used_designators": "PSW2,#FLG3,TVS_DIODE1,BATJ1,SW1B1,F1-2,U1,U4-5,C1-4,SW21-40,#PWR4-5,#PWR7-22,#PWR24-30,#PWR260,D25-46,Q1-3,Q702,TP2-4,R1-24,R706-713,SW1A1,NT1,J1-4,LED2-22",
+    "used_designators": "LED2-22,NT1,J1-6,JST1-2,BT1-2,R1-44,R706-715,SW1A1,TP1-6,Q1-4,Q702,D1-92,#PWR1-48,#PWR260,RSW1-2,SW1-40,C1-8,U1,U3-6,F1-2,TVS_DIODE1,#FLG3,MH1-8,BATJ1,SW1B1,PSW1-2",
     "variants": []
   },
   "sheets": [
     [
       "603afaa0-4142-4673-b835-76ba767ab9eb",
       "dormin"
+    ],
+    [
+      "61f422a6-c5c1-4994-83bd-f5d919e1e268",
+      "Left"
+    ],
+    [
+      "c34ad971-40ee-4ba1-b588-4be495453fb3",
+      "Right"
     ]
   ],
   "text_variables": {},
