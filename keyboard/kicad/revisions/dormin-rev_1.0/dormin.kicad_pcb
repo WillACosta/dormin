@@ -146,9 +146,9 @@
 				)
 			)
 		)
-		(path "/4e232a0f-c85e-4bb7-a7c9-b33b7f8cfaa0")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/9ef0e5ea-efe0-489e-b7b3-06f4ad2b5230")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -676,9 +676,9 @@
 				)
 			)
 		)
-		(path "/cdcc5d04-22db-4afb-b9ec-ebc473a19743")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/58bd8c6b-1472-4a92-832d-334b20f407ab")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1206,9 +1206,9 @@
 				)
 			)
 		)
-		(path "/787ac2c7-c8d9-4a0e-aa40-503cac963469")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/675eef49-a091-498a-b8dd-724730676041")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1736,9 +1736,9 @@
 				)
 			)
 		)
-		(path "/b1a67efb-40ee-4d4a-9e9d-b3e4e4df0377")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/a6b4dcb6-fcea-4fb4-9361-d4b7473b19e2")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2266,9 +2266,9 @@
 				)
 			)
 		)
-		(path "/1dff630a-2c67-4a26-8cc0-3147a9b4806e")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/d2be23d9-7cd4-4529-808d-c4ef9f842404")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2804,9 +2804,9 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/2a786b81-6c26-4680-8113-f40baa531d78")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/a225392d-761f-4adb-baca-19b0404ca7f4")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3089,9 +3089,9 @@
 				)
 			)
 		)
-		(path "/6a1a34e1-3f99-4069-90a0-442581acb555")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/2c20e8a5-a803-411b-81e7-a357b57d5719")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3619,9 +3619,9 @@
 				)
 			)
 		)
-		(path "/94334603-1c5d-489a-be5b-d81c10402af1")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/38b41829-c5eb-48f6-9188-75737f770cf5")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4149,9 +4149,9 @@
 				)
 			)
 		)
-		(path "/2fa82023-d178-4e54-ba4a-d836c18b4f86")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/9f273a69-f77b-4a9f-b151-d5702c7e6c62")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4679,9 +4679,9 @@
 				)
 			)
 		)
-		(path "/f5e837ee-8bb8-4ac3-b8e6-2016cde26dfb")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/461e8fc4-0d36-4438-b80d-9eca64a63ef3")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5209,9 +5209,9 @@
 				)
 			)
 		)
-		(path "/b567e31f-13d6-4ef7-a399-0775326146c7")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/63166dd8-43a6-4fbd-af57-489ea4c2e643")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5741,9 +5741,9 @@
 				)
 			)
 		)
-		(path "/8da991a0-6190-425c-9df5-0a38c007513b")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/60558e91-6371-4399-974a-e6190f684ffb")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6271,9 +6271,9 @@
 				)
 			)
 		)
-		(path "/d8149714-227e-4987-a6a1-3430c9c2def2")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/3c37872e-e628-44e0-88e0-2621695f4a87")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6801,9 +6801,9 @@
 				)
 			)
 		)
-		(path "/b0c0ef42-9cbf-4baf-a0dc-61a784dc0af6")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/4db3ea96-211f-49e1-b510-6c7621f8f78d")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7339,9 +7339,9 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/ec8cbe69-ab4a-4cdf-87ab-986f03ce39e7")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/2febdf4e-2cd9-409f-9985-0360ad443a0c")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7765,9 +7765,9 @@
 				)
 			)
 		)
-		(path "/6ed0c6d4-8b4c-475c-8721-895c52124a2f")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/85b8054c-868b-4d9a-acb5-1d3f2893f716")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8291,9 +8291,9 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*")
-		(path "/418088af-937e-4640-96a6-fcfb3462549a")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/b9430b69-4963-4b1a-9088-388d8c8d88e7")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8394,9 +8394,9 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*")
-		(path "/c5dc1367-d353-4d89-82b5-6dcc641a31f6")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/2241fff1-2bba-4aee-aad8-261c9fcd39f7")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8509,9 +8509,9 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/eb010a1d-7ef5-475f-89ce-450f9999fa5d")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/47d09cef-5506-459f-b919-7832b3056f4f")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8873,9 +8873,9 @@
 				)
 			)
 		)
-		(path "/40bde950-b9c5-4238-9cca-ecf54e6b16a6")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/c6c03802-e2c2-4656-81e0-22fb30942f4c")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9403,9 +9403,9 @@
 				)
 			)
 		)
-		(path "/1945da9a-3823-43e5-90c8-dd1288749c90")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/2f8ddd3c-2d13-4f9f-9862-591211d53198")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9933,9 +9933,9 @@
 				)
 			)
 		)
-		(path "/82fbe7b3-7eab-44cf-b426-b72ad964b3e3")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/12474f9d-10e6-475f-a1da-1211ca2b2f58")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10461,9 +10461,9 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*")
-		(path "/033072ff-4b52-41ee-a8a8-4c8c620e2a66")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/f9a989b3-c1f5-4b99-b46c-9ddb59a50089")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10568,9 +10568,9 @@
 				)
 			)
 		)
-		(path "/3247149f-0dd7-499f-ac3f-3df5542369e3")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/c65520eb-9562-4c5a-b4f0-3fe74776a0b9")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11094,9 +11094,9 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*")
-		(path "/5e30a2ea-587f-42a4-b98b-0388bc86c0c0")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/deb23c4d-2dd5-4d77-9a0b-73c4918ece1f")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11201,9 +11201,9 @@
 				)
 			)
 		)
-		(path "/a3f532eb-74b6-4340-a3c4-c0fb94bb5a20")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/119e53b1-6f8d-4a72-bfc3-c24ba736da18")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11731,9 +11731,9 @@
 				)
 			)
 		)
-		(path "/1d90d458-e706-45a3-b1d8-ece7a668e192")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/b0ffe679-f541-499c-8d78-5c5e6d9324b1")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12306,9 +12306,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/aa353fcc-1449-4e5e-9a01-77f26d5e632b")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/7179d8f9-982c-4227-9ba5-896e2e7db203")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12654,9 +12654,9 @@
 			)
 		)
 		(property ki_fp_filters "D*SOD?123*")
-		(path "/897d3565-54c9-4a08-ab36-1915af2554f5")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/3a16a08f-f8d1-4e94-bed8-870cb5f0b7d4")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12977,9 +12977,9 @@
 			)
 		)
 		(property ki_fp_filters "D*SOD?123*")
-		(path "/fa73f5ac-bcf7-40f3-8a78-dabfe916e9be")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/d3476d80-58dd-45be-95d5-7083f8f735df")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13296,9 +13296,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/14858553-8869-421a-bd9e-c884210e3473")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/e6443d62-8fae-4e9d-9589-2d9d8d1ba278")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13479,9 +13479,9 @@
 			)
 		)
 		(property ki_fp_filters "D*SOD?123*")
-		(path "/fc7d155f-d859-4b04-9984-5a373148f81d")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/5cc14c78-d438-4c7b-9e6d-c4b7d1a435a3")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13798,9 +13798,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/91484256-8209-4cea-9a13-8849ba239fdc")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/630d329a-b66b-45bc-a634-a519b8aefcb2")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13990,9 +13990,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/9c7ba8e9-b740-4602-a3d9-a3ff064f44f5")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/0ae47d92-df09-47b1-8cca-9870210e1232")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14173,9 +14173,9 @@
 			)
 		)
 		(property ki_fp_filters "D*SOD?123*")
-		(path "/4a9b5ccd-76e3-47ac-9970-a0fa0950a5a6")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/2558cbf7-30a9-476d-8ffe-27cd3d5a3a12")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14491,9 +14491,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/0f8718df-fea6-45c3-9446-4303b4d48ab7")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/fbd5670e-041c-49b5-b4b1-47a5f6593c3e")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14669,9 +14669,9 @@
 			)
 		)
 		(property ki_fp_filters "SOT?23*")
-		(path "/eec6f25f-0148-4091-ae96-27bfbfc41160")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/581365f0-8eca-427e-93e1-f3fb76f71d5e")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15089,9 +15089,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/81536098-9deb-48cc-a491-fa09fb4a5c3b")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/f6df646c-3de6-4d0b-ae9a-96ac93010fba")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15450,9 +15450,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/d8a90771-fe08-4b03-8a20-426aa629176a")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/9bfb1f93-0ba0-431a-b7ae-fe0180a09e1b")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15798,9 +15798,9 @@
 			)
 		)
 		(property ki_fp_filters "D*SOD?123*")
-		(path "/020d46fc-ca7b-425d-81bc-bf01160e7195")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/1bbb0c97-d75f-45aa-a9be-b00ade88ded8")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16134,9 +16134,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/c1bc79d2-1b22-432a-a8a5-b355f3178c63")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/37a072a6-bfdb-45d4-b38a-131064775b7a")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16495,9 +16495,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/26cfe445-6298-47cb-b063-5d9a152b8b7a")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/a2a58f4e-128d-49b0-bb10-b041ae84d9fe")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16839,9 +16839,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/1a7128eb-c697-4a83-b02b-b5185a0fa115")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/b17dca01-946e-4aae-8f63-453824f77d9c")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17022,9 +17022,9 @@
 			)
 		)
 		(property ki_fp_filters "D*SOD?123*")
-		(path "/e14d290a-0206-4a6b-8413-513791c06f63")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/f95d227c-75ca-46f0-ae90-98bfcff0a457")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17358,9 +17358,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/bacfe43d-9059-4436-b1ca-d9c36b774564")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/778f4278-f7f9-4c14-b9ac-e75b5726ff90")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17702,9 +17702,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/e1a6b57a-8648-4408-a239-47b60632f35a")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/c743b13e-05d6-4bd1-9779-6ede2425ab80")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17881,9 +17881,9 @@
 			)
 		)
 		(property ki_fp_filters "SOT?23*")
-		(path "/1c0e572e-b22b-4b28-83f1-728fb67784f7")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/6da0427b-a9eb-4625-bad6-f8302d519e1e")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18284,9 +18284,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/7711cb46-92ba-42e6-903b-938df99ede4c")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/b334228e-655b-4c9b-8771-1c510663d1fb")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18463,9 +18463,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/5c46093d-e8fc-4e8a-b767-423fad95bcc0")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/67a548fc-b456-4a0b-872d-894cd74ad52c")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18641,9 +18641,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/684f3b6d-dfa8-44a9-8410-0ac89d9efad7")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/0ed6935e-9056-4299-a97a-4f0f49766fec")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18798,9 +18798,9 @@
 			)
 		)
 		(property ki_fp_filters "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
-		(path "/a925f58c-2223-449a-9101-82ab734c8dea")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/c4732467-83c4-48f7-a9e5-47d4787397e5")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19281,9 +19281,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/e20a499a-5c23-4119-b59c-ee8029a7aa1e")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/0325cf3c-38e2-4e0f-89ca-53313b2b9c3a")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19615,9 +19615,9 @@
 			)
 		)
 		(property ki_fp_filters "D*SMF*")
-		(path "/b20a7268-6bb4-40a2-a758-346d7af4372b")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/1dcf00c8-08c4-4219-8635-599b3a9935dc")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19959,9 +19959,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/0d61cefb-a070-479f-9690-9c555575e67c")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/f52662c9-708a-4186-85b4-925f7e434f3e")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20303,9 +20303,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/828a897b-e5c7-49d0-95db-54f384c2ad0f")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/15b90828-fa60-408c-a9d4-bcec303825eb")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20486,9 +20486,9 @@
 			)
 		)
 		(property ki_fp_filters "D*SOD?123*")
-		(path "/4693f405-6fba-44ab-9aeb-7a57877196f0")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/3d62a1b1-d81c-4bdc-8d69-0459c8e487bd")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20781,9 +20781,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/ad66c6c1-4132-4bc5-9277-ab0180df65db")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/cc24f8fc-445f-4d61-ac32-a37e46d8d4ed")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20919,9 +20919,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/9da16264-ed80-41fc-854b-dcccabe9c31c")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/7e5ba04c-55de-4820-a5dc-910a0f310a7c")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21102,9 +21102,9 @@
 			)
 		)
 		(property ki_fp_filters "D*SOD?123*")
-		(path "/5513820f-7f73-4cd4-97b3-1831d245a587")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/62070d9d-2d24-42f7-aac2-5f0fbf7c1940")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21425,9 +21425,9 @@
 			)
 		)
 		(property ki_fp_filters "D*SOD?123*")
-		(path "/1eb04272-bddd-4bea-996e-1c0df341a61d")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/1e3193bc-21d7-42e0-8aa3-feaf6a60adb4")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21761,9 +21761,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/7b700799-5f02-49ca-bfb3-abf556f6a22c")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/12c9d547-64ae-49a8-a99d-1d47cfaca7b9")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22080,9 +22080,9 @@
 				(justify mirror)
 			)
 		)
-		(path "/03aae6f1-3037-4318-9d27-34bc11235e79")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/16ec44cc-03c2-4eb5-b595-8fa7a7a0db39")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22647,9 +22647,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/a7624e85-420d-47e5-8615-be0c5d9b9a3c")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/48944bf9-7b07-4bad-82b8-8306ec5d9b50")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23185,9 +23185,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/2c3b2934-990d-4043-bed0-33bfd746c4b3")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/9843890d-ce58-4ee3-9371-378d85bd0762")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23529,9 +23529,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/54da9a77-1334-4606-9f1a-8b9f059982ab")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/96d6c56d-5ac2-451f-9276-56beb1f38ffb")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23725,9 +23725,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/2d2b4be3-a4a4-425e-9993-7b04b0522f64")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/a56c0cf1-accb-4c35-9b0f-13bf8692fc6f")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24086,9 +24086,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/c93e64e4-3fa3-40ad-bb44-cd4305647e81")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/6f5401c3-1070-4186-9bcb-b1653d99d7c0")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24434,9 +24434,9 @@
 			)
 		)
 		(property ki_fp_filters "D*SOD?123*")
-		(path "/63bb188a-bf2e-4457-9a51-fda1e046e00d")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/245fa766-a00f-4081-9822-a9cfc0a70214")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24740,9 +24740,9 @@
 				(justify mirror)
 			)
 		)
-		(path "/a3cc9919-069b-424d-a651-8b5b67d49f30")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/72c15f1a-14cc-4abb-8600-4a701ead5416")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25509,9 +25509,9 @@
 			)
 		)
 		(property ki_fp_filters "D*SOD?123*")
-		(path "/09347417-1aba-4475-af52-994a1bc5100a")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/1a0b6ed0-ee8b-4652-adf9-854abd549228")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25845,9 +25845,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/98ff0141-dea8-461a-a1a4-c3a498b61ee2")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/77604703-f125-4753-9fe5-cbc2625fe47f")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26175,9 +26175,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/97465a15-6f75-4040-91b0-6d0922154801")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/2d0dcf9c-9e4f-4f7e-a536-85cdfed9f74f")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26358,9 +26358,9 @@
 			)
 		)
 		(property ki_fp_filters "D*SOD?123*")
-		(path "/93ded79d-34e1-4069-bc55-2a2b70788025")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/9209a602-8eea-46b4-b029-7a23ed71224a")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26677,9 +26677,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/bb1109ae-859e-4de5-a80b-1de235940d7c")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/0803896e-09be-4f74-b8f3-27126726168c")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26834,9 +26834,9 @@
 			)
 		)
 		(property ki_fp_filters "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
-		(path "/d13a346e-ec2b-4ed1-bc0b-0d4e97808a1b")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/5ab5a812-7d3a-49f9-bd32-ad47dd26764d")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27300,9 +27300,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/13538104-50a7-4a0a-9bb6-bd4249816c79")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/5605a631-da9b-44bd-842d-f910b0923d69")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27479,9 +27479,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/0c85b8e9-d677-46b5-8481-7b35e426a0d2")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/19561d63-df96-49c8-80e1-f413b55d5d48")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27664,9 +27664,9 @@
 			)
 		)
 		(property ki_fp_filters "D*SOD?123*")
-		(path "/c585881d-3211-409b-99f0-b56e294fca8d")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/677ca642-9316-4f47-946c-c73ff1c62962")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27973,9 +27973,9 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/482e5f97-af5e-462c-a2db-2074c5856218")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/86c3482e-ee39-4e51-980c-02b45b7a9c67")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -28299,9 +28299,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/00c50407-921f-4e94-bc97-28e1f1628067")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/e2c74382-fc40-499c-b9c7-d57040916ecb")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -28647,9 +28647,9 @@
 			)
 		)
 		(property ki_fp_filters "D*SOD?123*")
-		(path "/37e0664e-4f05-4cd5-831d-85d2f610d185")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/5fc97080-491d-45cc-a413-ecd45aae96a9")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -28942,9 +28942,9 @@
 				(justify mirror)
 			)
 		)
-		(path "/b004397c-eada-4fef-b71e-7942ad805f5e")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/789abae3-ef25-4404-b834-b1ca92a6fd33")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -30021,9 +30021,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/0f4c92ca-f790-4d96-95a8-6db517d4edc2")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/2c41d066-09a6-494f-a6e2-92b501c650cb")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -30204,9 +30204,9 @@
 			)
 		)
 		(property ki_fp_filters "D*SOD?123*")
-		(path "/37eb4a04-06b5-41db-a8e0-e58fc7170397")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/bc54cb01-23e5-4e63-959b-92158470f3c2")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -30540,9 +30540,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/d99cff94-f2fd-47be-8de3-40369ce10498")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/faa82872-769c-43d4-b0bb-5d289e8d3309")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -30862,9 +30862,9 @@
 			)
 		)
 		(property ki_fp_filters "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
-		(path "/2f35b0df-6ec8-4c19-8f58-86a604c07dcd")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/5f777e08-7dae-4302-8206-ca7fbcb8ff8d")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -31328,9 +31328,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/1ac94647-3de4-42e9-a890-c0c6a1fd79d9")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/f19d03cb-b163-4cee-96f8-52188d814d6d")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -31507,9 +31507,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/10ba421b-8f45-4c05-b292-fbd4c95ab870")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/7e384ce8-1af4-47a7-896c-e0e5f010da3b")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -31703,9 +31703,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/aee6338e-dcdf-4c04-bbe8-2137544ae595")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/f4210126-23b7-4250-8008-db7d2196735e")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32051,9 +32051,9 @@
 			)
 		)
 		(property ki_fp_filters "D*SOD?123*")
-		(path "/6b93135f-7b9f-46f2-8fc5-fce11b7e58dd")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/dbd2a404-9dc9-4a8c-b08d-c9a0fcefa771")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32387,9 +32387,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/891170d2-1d9c-4545-82b0-e5323aa29e28")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/6cbd9e4c-4207-4587-8129-373f394f9ae0")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32731,9 +32731,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/a77b5e5f-555c-428c-af89-48305df111e6")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/3ee75d41-7815-474d-bfd6-0a44b624178b")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32886,9 +32886,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/6a2f61a1-eaf3-4f2d-9fe9-bfdadf51f177")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/2d7cba08-7378-4e99-a994-f667774d0320")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -33024,9 +33024,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/f5383af2-d5b7-4395-926e-a778db82eac4")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/1c84716b-1633-4bb7-9547-de68b5b0a968")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -33220,9 +33220,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/6d3e1546-9933-4874-a324-c31bf2fa2d17")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/026f3c6b-dbe7-4089-aeeb-da651d35f9ad")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -33564,9 +33564,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/ae940a73-11b6-4ab3-a934-21dfa76b2b71")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/7b9f1051-a2e6-49e9-9786-c172dfe6f24a")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -33756,9 +33756,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/9b338fd9-02b2-4c1a-af15-f1073acfa88f")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/c8172166-a1d1-486d-93d4-2b632297325f")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -33921,9 +33921,9 @@
 			)
 		)
 		(property ki_fp_filters "*SC?70*")
-		(path "/9f419223-a20d-44f7-a495-aecac56333f6")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/8b1f0d4c-ed69-49c3-91b6-229891be14f8")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -34314,9 +34314,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/3c27641c-89c0-415f-af0b-c9c2d17d0477")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/68904ba5-7f1c-41ff-ae81-1eef0af6bdc6")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -34479,9 +34479,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/d2620840-a67a-49bb-8b1f-f27b76a597a3")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/cb03208f-a377-4895-98cf-2b8901518cb3")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -34662,9 +34662,9 @@
 			)
 		)
 		(property ki_fp_filters "D*SOD?123*")
-		(path "/595561eb-1660-480d-8b1c-68cf0615a7cd")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/043465c3-213f-475a-b5b8-3446a2f07a43")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -34985,9 +34985,9 @@
 			)
 		)
 		(property ki_fp_filters "D*SOD?123*")
-		(path "/00c102b1-ab22-474b-9bad-0c11790704e7")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/90b3016e-2a74-462b-ac4b-37bf913cee69")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -35303,9 +35303,9 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/f842fe34-1275-488a-b2d6-39ec30f099bb")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/16aac0f4-c034-4651-928c-2d04f0383f3b")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -35740,9 +35740,9 @@
 			)
 		)
 		(property ki_fp_filters "D*SOD?123*")
-		(path "/70946f38-6603-4adb-af7b-4d3031cb04f9")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/ceb5b9c8-70f5-4d8e-9fdd-fcd9b9384cac")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36059,9 +36059,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/2c1d6d95-695e-44e9-b12b-690e6aaf58fa")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/72aec3c0-0523-4fb1-9c37-453eb8e31727")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36240,9 +36240,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/28fedebf-3e52-492c-a56c-437ba6e24d5e")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/8b953821-80dc-47d3-9983-67e17046908b")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36436,9 +36436,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/aa81b9a4-d0a2-4956-a09b-4deab4c51263")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/7a6b0862-8e02-4d61-9de1-5ab10a5145d8")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36780,9 +36780,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/2b21b915-99ea-4436-a454-d579169eef7a")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/040e5efe-9691-4905-acdc-991368d397d2")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36959,9 +36959,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/1e361c42-4357-4451-8d69-0a732ceecd5a")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/eacfdc2f-1a77-4f1f-9844-55828be33cf7")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -37114,9 +37114,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/c840ff65-b26c-4e2d-adbd-f9b24e49a4a6")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/dfa51efc-7c61-491a-8232-c32314fc40a9")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -37238,7 +37238,6 @@
 			)
 		)
 		(property ki_fp_filters "*polyfuse* *PTC*")
-		(path "/a8842343-a931-4113-ae07-185f689f93e5")
 		(sheetname "/")
 		(sheetfile "dormin.kicad_sch")
 		(units
@@ -37395,9 +37394,9 @@
 			)
 		)
 		(property ki_fp_filters "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
-		(path "/df34a092-eb9f-46ff-9ffa-9d83ea7593f5")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/88c6e333-3107-4e30-904b-532ab0076ef3")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -37861,9 +37860,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/6d66388f-00ca-4563-984c-26c5912b99af")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/8adbf565-291c-424b-a96c-dfe0eb2df25d")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -38058,9 +38057,9 @@
 				(justify mirror)
 			)
 		)
-		(path "/42206a20-64e0-4777-8c09-a0812b467e3e")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/a9f8e41b-450f-4e27-b0ac-fd3e54fecb0f")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -38224,9 +38223,9 @@
 			)
 		)
 		(property ki_fp_filters "D*SOD?123*")
-		(path "/c02e07b6-799c-4cbf-b967-251fc1df7a9c")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/84dea48d-2395-4d4e-9af5-251e90a7d8f6")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -38542,9 +38541,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/758ec059-a05f-40c0-9815-55034de2e238")
-		(sheetname "/")
-		(sheetfile "dormin.kicad_sch")
+		(path "/61f422a6-c5c1-4994-83bd-f5d919e1e268/0d557883-4c0b-4671-ad07-81915c109aee")
+		(sheetname "/Left/")
+		(sheetfile "dormin_left.kicad_sch")
 		(units
 			(unit
 				(name "A")

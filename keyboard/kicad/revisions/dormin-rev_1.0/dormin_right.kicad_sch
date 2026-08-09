@@ -8615,6 +8615,12 @@
 		(uuid "5791985f-c9a2-45bb-af7c-1d202ec70acd")
 	)
 	(junction
+		(at 67.31 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "585469cb-43ea-47bc-b919-73f49d3d6d82")
+	)
+	(junction
 		(at 210.82 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8849,12 +8855,6 @@
 		(uuid "da4d9cb1-dd72-4065-8c3e-0d676d86cd49")
 	)
 	(junction
-		(at 64.77 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd8fec08-3dbd-4c14-bcba-fbe9c34dcaed")
-	)
-	(junction
 		(at 135.89 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8956,6 +8956,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 91.44) (xy 71.12 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03eb8046-ce1a-40a3-a041-655125a52ceb")
+	)
+	(wire
+		(pts
 			(xy 130.81 133.35) (xy 148.59 133.35)
 		)
 		(stroke
@@ -9036,7 +9046,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 95.25) (xy 71.12 95.25)
+			(xy 64.77 91.44) (xy 67.31 91.44)
 		)
 		(stroke
 			(width 0)
@@ -9463,16 +9473,6 @@
 			(type default)
 		)
 		(uuid "5b0cd7e3-4630-4f1e-a613-2588c97731ad")
-	)
-	(wire
-		(pts
-			(xy 64.77 95.25) (xy 64.77 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d656e93-e355-467d-aa42-6c311d595fad")
 	)
 	(wire
 		(pts
@@ -10006,6 +10006,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 38.1) (xy 53.34 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b20b5073-3ac2-41c4-bbe8-7f860b1397e4")
+	)
+	(wire
+		(pts
 			(xy 207.01 184.15) (xy 213.36 184.15)
 		)
 		(stroke
@@ -10376,7 +10386,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 96.52) (xy 64.77 95.25)
+			(xy 67.31 92.71) (xy 67.31 91.44)
 		)
 		(stroke
 			(width 0)
@@ -10504,7 +10514,7 @@
 		)
 		(uuid "ff807d06-f466-4f3a-a238-6e6dd299f9af")
 	)
-	(global_label "BL_DRAIN"
+	(global_label "BL_DRAIN_R"
 		(shape input)
 		(at 237.49 201.93 0)
 		(fields_autoplaced yes)
@@ -10528,7 +10538,7 @@
 			)
 		)
 	)
-	(global_label "ROW_2_R"
+	(global_label "ROW2_R"
 		(shape input)
 		(at 31.75 55.88 180)
 		(fields_autoplaced yes)
@@ -10540,7 +10550,7 @@
 		)
 		(uuid "04c9a7ff-b886-452d-8a7a-6dcbb8890e25")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.2982 55.88 0)
+			(at 21.2658 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10552,7 +10562,7 @@
 			)
 		)
 	)
-	(global_label "ROW0"
+	(global_label "ROW0_R"
 		(shape input)
 		(at 203.2 49.53 180)
 		(fields_autoplaced yes)
@@ -10576,7 +10586,7 @@
 			)
 		)
 	)
-	(global_label "LED_PWM"
+	(global_label "LED_PWM_R"
 		(shape input)
 		(at 266.7 161.29 180)
 		(fields_autoplaced yes)
@@ -10600,7 +10610,7 @@
 			)
 		)
 	)
-	(global_label "COL5"
+	(global_label "COL5_R"
 		(shape input)
 		(at 64.77 76.2 0)
 		(fields_autoplaced yes)
@@ -10624,7 +10634,7 @@
 			)
 		)
 	)
-	(global_label "ROW3"
+	(global_label "ROW3_R"
 		(shape input)
 		(at 31.75 59.69 180)
 		(fields_autoplaced yes)
@@ -10648,7 +10658,7 @@
 			)
 		)
 	)
-	(global_label "VBAT_RAW"
+	(global_label "VBAT_RAW_R"
 		(shape input)
 		(at 72.39 186.69 0)
 		(fields_autoplaced yes)
@@ -10672,7 +10682,7 @@
 			)
 		)
 	)
-	(global_label "BL_DRAIN"
+	(global_label "BL_DRAIN_R"
 		(shape input)
 		(at 237.49 166.37 0)
 		(fields_autoplaced yes)
@@ -10696,7 +10706,7 @@
 			)
 		)
 	)
-	(global_label "COL5"
+	(global_label "COL5_R"
 		(shape input)
 		(at 220.98 34.29 90)
 		(fields_autoplaced yes)
@@ -10720,7 +10730,7 @@
 			)
 		)
 	)
-	(global_label "ROW3"
+	(global_label "ROW3_R"
 		(shape input)
 		(at 203.2 97.79 180)
 		(fields_autoplaced yes)
@@ -10744,7 +10754,7 @@
 			)
 		)
 	)
-	(global_label "EXTA"
+	(global_label "EXTA_R"
 		(shape input)
 		(at 97.79 91.44 180)
 		(fields_autoplaced yes)
@@ -10768,7 +10778,7 @@
 			)
 		)
 	)
-	(global_label "BL_DRAIN"
+	(global_label "BL_DRAIN_R"
 		(shape input)
 		(at 237.49 148.59 0)
 		(fields_autoplaced yes)
@@ -10792,7 +10802,7 @@
 			)
 		)
 	)
-	(global_label "EXTA"
+	(global_label "EXTA_R"
 		(shape input)
 		(at 64.77 83.82 0)
 		(fields_autoplaced yes)
@@ -10816,7 +10826,7 @@
 			)
 		)
 	)
-	(global_label "SDA"
+	(global_label "SDA_R"
 		(shape input)
 		(at 31.75 63.5 180)
 		(fields_autoplaced yes)
@@ -10840,7 +10850,7 @@
 			)
 		)
 	)
-	(global_label "SWD"
+	(global_label "SWD_R"
 		(shape input)
 		(at 161.29 101.6 180)
 		(fields_autoplaced yes)
@@ -10864,7 +10874,7 @@
 			)
 		)
 	)
-	(global_label "COL3"
+	(global_label "COL3_R"
 		(shape input)
 		(at 64.77 63.5 0)
 		(fields_autoplaced yes)
@@ -10888,7 +10898,7 @@
 			)
 		)
 	)
-	(global_label "SDA"
+	(global_label "SDA_R"
 		(shape input)
 		(at 97.79 101.6 180)
 		(fields_autoplaced yes)
@@ -10912,7 +10922,7 @@
 			)
 		)
 	)
-	(global_label "COL4"
+	(global_label "COL4_R"
 		(shape input)
 		(at 233.68 34.29 90)
 		(fields_autoplaced yes)
@@ -10936,7 +10946,7 @@
 			)
 		)
 	)
-	(global_label "SWD"
+	(global_label "SWD_R"
 		(shape input)
 		(at 41.91 41.91 90)
 		(fields_autoplaced yes)
@@ -10960,7 +10970,7 @@
 			)
 		)
 	)
-	(global_label "SWC"
+	(global_label "SWC_R"
 		(shape input)
 		(at 45.72 41.91 90)
 		(fields_autoplaced yes)
@@ -10984,7 +10994,7 @@
 			)
 		)
 	)
-	(global_label "SCL"
+	(global_label "SCL_R"
 		(shape input)
 		(at 31.75 67.31 180)
 		(fields_autoplaced yes)
@@ -11008,7 +11018,7 @@
 			)
 		)
 	)
-	(global_label "EXTB"
+	(global_label "EXTB_R"
 		(shape input)
 		(at 97.79 104.14 180)
 		(fields_autoplaced yes)
@@ -11032,7 +11042,7 @@
 			)
 		)
 	)
-	(global_label "COL1"
+	(global_label "COL1_R"
 		(shape input)
 		(at 274.32 34.29 90)
 		(fields_autoplaced yes)
@@ -11056,7 +11066,7 @@
 			)
 		)
 	)
-	(global_label "SCL"
+	(global_label "SCL_R"
 		(shape input)
 		(at 97.79 99.06 180)
 		(fields_autoplaced yes)
@@ -11080,9 +11090,9 @@
 			)
 		)
 	)
-	(global_label "STS_LED_EN"
+	(global_label "STS_LED_EN_R"
 		(shape input)
-		(at 64.77 96.52 270)
+		(at 67.31 92.71 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11092,7 +11102,7 @@
 		)
 		(uuid "8f359b35-2e97-49ed-9a03-8783876d080a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.77 110.7536 90)
+			(at 67.31 106.9436 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11104,7 +11114,7 @@
 			)
 		)
 	)
-	(global_label "BL_DRAIN"
+	(global_label "BL_DRAIN_R"
 		(shape input)
 		(at 287.02 152.4 180)
 		(fields_autoplaced yes)
@@ -11128,7 +11138,7 @@
 			)
 		)
 	)
-	(global_label "COL2"
+	(global_label "COL2_R"
 		(shape input)
 		(at 260.35 34.29 90)
 		(fields_autoplaced yes)
@@ -11152,7 +11162,7 @@
 			)
 		)
 	)
-	(global_label "RESET"
+	(global_label "RESET_R"
 		(shape input)
 		(at 49.53 41.91 90)
 		(fields_autoplaced yes)
@@ -11176,7 +11186,7 @@
 			)
 		)
 	)
-	(global_label "COL4"
+	(global_label "COL4_R"
 		(shape input)
 		(at 64.77 59.69 0)
 		(fields_autoplaced yes)
@@ -11200,7 +11210,7 @@
 			)
 		)
 	)
-	(global_label "ROW2"
+	(global_label "ROW2_R"
 		(shape input)
 		(at 203.2 82.55 180)
 		(fields_autoplaced yes)
@@ -11224,7 +11234,7 @@
 			)
 		)
 	)
-	(global_label "STS_LED_DATA"
+	(global_label "STS_LED_DATA_R"
 		(shape input)
 		(at 87.63 151.13 180)
 		(fields_autoplaced yes)
@@ -11272,7 +11282,7 @@
 			)
 		)
 	)
-	(global_label "COL3"
+	(global_label "COL3_R"
 		(shape input)
 		(at 246.38 34.29 90)
 		(fields_autoplaced yes)
@@ -11296,7 +11306,7 @@
 			)
 		)
 	)
-	(global_label "VBAT_RAW"
+	(global_label "VBAT_RAW_R"
 		(shape input)
 		(at 88.9 186.69 270)
 		(fields_autoplaced yes)
@@ -11320,7 +11330,7 @@
 			)
 		)
 	)
-	(global_label "EXTB"
+	(global_label "EXTB_R"
 		(shape input)
 		(at 64.77 80.01 0)
 		(fields_autoplaced yes)
@@ -11344,7 +11354,7 @@
 			)
 		)
 	)
-	(global_label "COL0"
+	(global_label "COL0_R"
 		(shape input)
 		(at 31.75 76.2 180)
 		(fields_autoplaced yes)
@@ -11368,7 +11378,7 @@
 			)
 		)
 	)
-	(global_label "LED_PWM"
+	(global_label "LED_PWM_R"
 		(shape input)
 		(at 64.77 87.63 0)
 		(fields_autoplaced yes)
@@ -11392,7 +11402,7 @@
 			)
 		)
 	)
-	(global_label "COL2"
+	(global_label "COL2_R"
 		(shape input)
 		(at 64.77 67.31 0)
 		(fields_autoplaced yes)
@@ -11416,7 +11426,7 @@
 			)
 		)
 	)
-	(global_label "STS_LED_DATA"
+	(global_label "STS_LED_DATA_R"
 		(shape input)
 		(at 31.75 83.82 180)
 		(fields_autoplaced yes)
@@ -11440,7 +11450,7 @@
 			)
 		)
 	)
-	(global_label "SWC"
+	(global_label "SWC_R"
 		(shape input)
 		(at 161.29 99.06 180)
 		(fields_autoplaced yes)
@@ -11464,7 +11474,7 @@
 			)
 		)
 	)
-	(global_label "ROW1"
+	(global_label "ROW1_R"
 		(shape input)
 		(at 203.2 66.04 180)
 		(fields_autoplaced yes)
@@ -11488,7 +11498,7 @@
 			)
 		)
 	)
-	(global_label "COL1"
+	(global_label "COL1_R"
 		(shape input)
 		(at 31.75 80.01 180)
 		(fields_autoplaced yes)
@@ -11512,7 +11522,7 @@
 			)
 		)
 	)
-	(global_label "DETECT"
+	(global_label "DETECT_R"
 		(shape input)
 		(at 31.75 87.63 180)
 		(fields_autoplaced yes)
@@ -11536,7 +11546,7 @@
 			)
 		)
 	)
-	(global_label "RESET"
+	(global_label "RESET_R"
 		(shape input)
 		(at 29.21 187.96 180)
 		(fields_autoplaced yes)
@@ -11560,7 +11570,7 @@
 			)
 		)
 	)
-	(global_label "TX"
+	(global_label "TX_R"
 		(shape input)
 		(at 105.41 55.88 180)
 		(fields_autoplaced yes)
@@ -11584,7 +11594,7 @@
 			)
 		)
 	)
-	(global_label "TX"
+	(global_label "TX_R"
 		(shape input)
 		(at 31.75 71.12 180)
 		(fields_autoplaced yes)
@@ -11608,7 +11618,7 @@
 			)
 		)
 	)
-	(global_label "STS_LED_EN"
+	(global_label "STS_LED_EN_R"
 		(shape input)
 		(at 24.13 146.05 90)
 		(fields_autoplaced yes)
@@ -11632,7 +11642,7 @@
 			)
 		)
 	)
-	(global_label "COL0"
+	(global_label "COL0_R"
 		(shape input)
 		(at 287.02 34.29 90)
 		(fields_autoplaced yes)
@@ -11656,7 +11666,7 @@
 			)
 		)
 	)
-	(global_label "RX"
+	(global_label "RX_R"
 		(shape input)
 		(at 105.41 60.96 180)
 		(fields_autoplaced yes)
@@ -11680,7 +11690,7 @@
 			)
 		)
 	)
-	(global_label "BL_DRAIN"
+	(global_label "BL_DRAIN_R"
 		(shape input)
 		(at 237.49 184.15 0)
 		(fields_autoplaced yes)
@@ -11728,7 +11738,7 @@
 			)
 		)
 	)
-	(global_label "RX"
+	(global_label "RX_R"
 		(shape input)
 		(at 64.77 71.12 0)
 		(fields_autoplaced yes)
@@ -11753,6 +11763,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 161.29 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "03ccfd2f-d44e-45a6-8964-52d977f48871")
+		(property "Reference" "3V3_R02"
+			(at 165.1 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3_R"
+			(at 154.94 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 161.29 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c5af275-d9cd-4b90-8046-baf9518be3c4")
+		)
+		(instances
+			(project "dormin"
+				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
+					(reference "3V3_R02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 213.36 144.78 0)
 		(unit 1)
@@ -11763,8 +11850,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03ea01db-dcc6-43b2-8aee-1188c6c0ea74")
-		(property "Reference" "R33"
-			(at 211.328 146.05 90)
+		(property "Reference" "R33_R1"
+			(at 210.82 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11849,7 +11936,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R33")
+					(reference "R33_R1")
 					(unit 1)
 				)
 			)
@@ -11867,7 +11954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0432c834-e76b-460d-823c-75c4fdb0bde8")
-		(property "Reference" "TP4"
+		(property "Reference" "TP4_R1"
 			(at 32.258 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11877,7 +11964,7 @@
 				)
 			)
 		)
-		(property "Value" "VBAT"
+		(property "Value" "VBAT_R"
 			(at 32.258 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11926,7 +12013,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "TP4")
+					(reference "TP4_R1")
 					(unit 1)
 				)
 			)
@@ -11943,7 +12030,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06bce7cf-2c64-4efa-b102-2865279e8fe9")
-		(property "Reference" "MH6"
+		(property "Reference" "MH6_R1"
 			(at 143.256 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12001,7 +12088,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "MH6")
+					(reference "MH6_R1")
 					(unit 1)
 				)
 			)
@@ -12018,8 +12105,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07b12bde-8737-4f04-af96-df96ed784306")
-		(property "Reference" "R32"
-			(at 204.978 199.39 90)
+		(property "Reference" "R32_R1"
+			(at 204.47 201.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12104,7 +12191,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R32")
+					(reference "R32_R1")
 					(unit 1)
 				)
 			)
@@ -12121,8 +12208,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0838339f-e0b4-4c37-b6cf-332c0d1bba64")
-		(property "Reference" "D68"
-			(at 210.82 188.976 0)
+		(property "Reference" "D68_R1"
+			(at 210.82 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12219,7 +12306,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D68")
+					(reference "D68_R1")
 					(unit 1)
 				)
 			)
@@ -12236,7 +12323,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a8eac55-f3e8-4973-9b48-03c2d157b3ce")
-		(property "Reference" "R714"
+		(property "Reference" "R714_R1"
 			(at 38.1 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12321,7 +12408,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R714")
+					(reference "R714_R1")
 					(unit 1)
 				)
 			)
@@ -12338,8 +12425,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ab637d6-0600-424b-ba1d-2e439b3c5a60")
-		(property "Reference" "BT2"
-			(at 66.04 193.04 0)
+		(property "Reference" "BT2_R1"
+			(at 76.2 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12350,7 +12437,7 @@
 			)
 		)
 		(property "Value" "Pads"
-			(at 66.04 195.072 0)
+			(at 76.2 195.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12435,87 +12522,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "BT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 161.29 93.98 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b42b97c-62d8-4807-8dee-a93d38a0afc5")
-		(property "Reference" "#PWR042"
-			(at 154.94 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 93.9799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ee396e26-fe0c-4a10-be75-07f99145eadd")
-		)
-		(instances
-			(project "dormin"
-				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR042")
+					(reference "BT2_R1")
 					(unit 1)
 				)
 			)
@@ -12532,7 +12539,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bf56cb5-0336-4a06-b949-167bc0f7feb6")
-		(property "Reference" "D52"
+		(property "Reference" "D52_R1"
 			(at 157.226 145.288 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12603,166 +12610,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 129.54 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c5ab678-2cb7-4cdb-8a54-e8a696d4d486")
-		(property "Reference" "#PWR039"
-			(at 129.54 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "af7e8e7e-f1bb-4010-aaf4-f2c2dea110d7")
-		)
-		(instances
-			(project "dormin"
-				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 146.05 44.45 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f470db6-5b95-492b-8d71-6499e9b1e078")
-		(property "Reference" "#PWR040"
-			(at 152.4 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 44.4499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "79126490-db15-495b-bdb6-43cdc40ab58d")
-		)
-		(instances
-			(project "dormin"
-				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR040")
+					(reference "D52_R1")
 					(unit 1)
 				)
 			)
@@ -12779,8 +12627,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "119343e4-0ffe-4290-88e6-0a329e2c2b0a")
-		(property "Reference" "R39"
-			(at 217.678 181.61 90)
+		(property "Reference" "R39_R1"
+			(at 217.17 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12865,7 +12713,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R39")
+					(reference "R39_R1")
 					(unit 1)
 				)
 			)
@@ -12883,7 +12731,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16a96f7c-16c7-498e-a19b-dfe337d0dca0")
-		(property "Reference" "SW34"
+		(property "Reference" "SW34_R1"
 			(at 255.27 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12946,7 +12794,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW34")
+					(reference "SW34_R1")
 					(unit 1)
 				)
 			)
@@ -12963,7 +12811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16ba72aa-3699-4e42-ad31-3c2fd3d88554")
-		(property "Reference" "R708"
+		(property "Reference" "R708_R1"
 			(at 270.764 159.258 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13046,7 +12894,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R708")
+					(reference "R708_R1")
 					(unit 1)
 				)
 			)
@@ -13063,7 +12911,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19a3c5e5-f5ee-4ab4-96ca-18f42a3f8832")
-		(property "Reference" "R709"
+		(property "Reference" "R709_R1"
 			(at 276.098 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13148,7 +12996,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R709")
+					(reference "R709_R1")
 					(unit 1)
 				)
 			)
@@ -13165,8 +13013,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b530a60-4f19-406a-b96d-be38604fbb54")
-		(property "Reference" "R28"
-			(at 198.628 199.39 90)
+		(property "Reference" "R28_R1"
+			(at 198.12 201.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13251,7 +13099,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R28")
+					(reference "R28_R1")
 					(unit 1)
 				)
 			)
@@ -13268,7 +13116,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f932848-5f3c-453c-8058-921c9cf5ab97")
-		(property "Reference" "D86"
+		(property "Reference" "D86_R1"
 			(at 252.476 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13355,85 +13203,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 33.02 157.48 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1fdb6d6c-fe1f-4992-ab06-6523fd5a2edc")
-		(property "Reference" "#PWR013"
-			(at 36.83 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3"
-			(at 29.21 157.4799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 33.02 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2f9ca16d-24be-437c-ac49-bc744bd8147d")
-		)
-		(instances
-			(project "dormin"
-				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR013")
+					(reference "D86_R1")
 					(unit 1)
 				)
 			)
@@ -13450,8 +13220,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22499f93-66e3-442b-a627-bb64f919df6b")
-		(property "Reference" "R40"
-			(at 224.028 146.05 90)
+		(property "Reference" "R40_R1"
+			(at 223.52 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13536,7 +13306,85 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R40")
+					(reference "R40_R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 74.93 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "22571c13-b9d6-41b0-86df-90addaf78c08")
+		(property "Reference" "GND_R05"
+			(at 81.28 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_R"
+			(at 81.28 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dda8918b-cb07-4e41-a613-1656ea94ed46")
+		)
+		(instances
+			(project "dormin"
+				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
+					(reference "GND_R05")
 					(unit 1)
 				)
 			)
@@ -13553,7 +13401,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23d8a565-061a-415c-a7c7-e6f84276fbbb")
-		(property "Reference" "PSW2"
+		(property "Reference" "PSW2_R1"
 			(at 98.044 180.086 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13629,7 +13477,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "PSW2")
+					(reference "PSW2_R1")
 					(unit 1)
 				)
 			)
@@ -13647,7 +13495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "243c4b4a-f992-4371-beaf-662dd6b81f2c")
-		(property "Reference" "#PWR032"
+		(property "Reference" "3V3_R04"
 			(at 60.96 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -13658,7 +13506,7 @@
 				)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "3V3_R"
 			(at 68.58 55.8799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13708,7 +13556,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR032")
+					(reference "3V3_R04")
 					(unit 1)
 				)
 			)
@@ -13725,7 +13573,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2822d596-bd96-47ff-95bf-6d04f030e74a")
-		(property "Reference" "D50"
+		(property "Reference" "D50_R1"
 			(at 139.446 145.288 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13796,7 +13644,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D50")
+					(reference "D50_R1")
 					(unit 1)
 				)
 			)
@@ -13814,7 +13662,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b94b353-d30d-4ad2-a6c7-c53c6b1244cc")
-		(property "Reference" "R24"
+		(property "Reference" "R24_R1"
 			(at 109.22 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13887,7 +13735,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R24")
+					(reference "R24_R1")
 					(unit 1)
 				)
 			)
@@ -13904,7 +13752,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2cb538f1-54aa-47c0-9804-4f654153521f")
-		(property "Reference" "J6"
+		(property "Reference" "J6_R1"
 			(at 167.64 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13974,7 +13822,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "J6")
+					(reference "J6_R1")
 					(unit 1)
 				)
 			)
@@ -13991,8 +13839,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2cdc8078-8986-477f-a88b-d4102285c7e3")
-		(property "Reference" "R42"
-			(at 224.028 181.61 90)
+		(property "Reference" "R42_R1"
+			(at 223.52 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14077,7 +13925,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R42")
+					(reference "R42_R1")
 					(unit 1)
 				)
 			)
@@ -14094,8 +13942,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "302544a1-bb38-4a6d-83ae-f7bb848bc64b")
-		(property "Reference" "R35"
-			(at 211.328 181.61 90)
+		(property "Reference" "R35_R1"
+			(at 210.82 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14180,7 +14028,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R35")
+					(reference "R35_R1")
 					(unit 1)
 				)
 			)
@@ -14198,7 +14046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31fd9f81-e9ac-4c7d-9f49-ae4805b9b093")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR019_R01"
 			(at 45.72 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -14209,7 +14057,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND_R"
 			(at 43.18 187.9599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14259,83 +14107,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 74.93 140.97 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3484dc52-d6e9-417f-aa78-f9120282eb1e")
-		(property "Reference" "#PWR034"
-			(at 81.28 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 79.3242 140.843 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "472a9e88-feec-44a8-bbf8-f02f59ddcee4")
-		)
-		(instances
-			(project "dormin"
-				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR034")
+					(reference "#PWR019_R01")
 					(unit 1)
 				)
 			)
@@ -14352,7 +14124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34cfc3ba-d3cf-4ad5-b4c6-5ff8cfd1a100")
-		(property "Reference" "D90"
+		(property "Reference" "D90_R1"
 			(at 266.446 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14439,86 +14211,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 161.29 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "351037ce-59e6-4cc9-8d26-98c473f91672")
-		(property "Reference" "#PWR043"
-			(at 165.1 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3"
-			(at 157.48 96.5199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 161.29 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "047f9fd6-c72b-4a28-9af1-655f89b9cb0a")
-		)
-		(instances
-			(project "dormin"
-				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR043")
+					(reference "D90_R1")
 					(unit 1)
 				)
 			)
@@ -14535,7 +14228,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3537a127-5af8-4320-be0b-58c06e557ac5")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR038_R01"
 			(at 114.3 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -14546,7 +14239,7 @@
 				)
 			)
 		)
-		(property "Value" "VBAT"
+		(property "Value" "VBAT_R"
 			(at 121.92 189.2301 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14596,7 +14289,85 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR038")
+					(reference "#PWR038_R01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 107.95 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "355a64bd-3f44-4968-a726-4c8af683e0a4")
+		(property "Reference" "5V_R01"
+			(at 111.76 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V_R"
+			(at 106.68 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 107.95 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c04ccecd-9788-4974-96c1-82c4d3b92aec")
+		)
+		(instances
+			(project "dormin"
+				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
+					(reference "5V_R01")
 					(unit 1)
 				)
 			)
@@ -14613,7 +14384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35cb21c2-e367-478c-8dc8-46230020f9ca")
-		(property "Reference" "D72"
+		(property "Reference" "D72_R1"
 			(at 225.806 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14700,7 +14471,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D72")
+					(reference "D72_R1")
 					(unit 1)
 				)
 			)
@@ -14718,7 +14489,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "360c7943-08a6-4491-bae5-0d80987a2006")
-		(property "Reference" "SW27"
+		(property "Reference" "SW27_R1"
 			(at 228.6 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14781,7 +14552,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW27")
+					(reference "SW27_R1")
 					(unit 1)
 				)
 			)
@@ -14798,7 +14569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "375a9bcb-34a9-4669-864b-9ac4baf4504e")
-		(property "Reference" "D63"
+		(property "Reference" "D63_R1"
 			(at 213.106 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14885,7 +14656,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D63")
+					(reference "D63_R1")
 					(unit 1)
 				)
 			)
@@ -14903,7 +14674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3823d317-791c-42a5-b016-3f8bc8335296")
-		(property "Reference" "SW38"
+		(property "Reference" "SW38_R1"
 			(at 269.24 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14966,7 +14737,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW38")
+					(reference "SW38_R1")
 					(unit 1)
 				)
 			)
@@ -14983,7 +14754,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38689142-4f1c-47fc-8ea3-5bdfb80f9aaa")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR044_R01"
 			(at 200.66 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -14994,7 +14765,7 @@
 				)
 			)
 		)
-		(property "Value" "VBAT"
+		(property "Value" "VBAT_R"
 			(at 193.04 133.3499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15044,7 +14815,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR044")
+					(reference "#PWR044_R01")
 					(unit 1)
 				)
 			)
@@ -15062,7 +14833,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b5e7eaa-db74-4fb8-8615-86a6a7516669")
-		(property "Reference" "SW23"
+		(property "Reference" "SW23_R1"
 			(at 215.9 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15125,7 +14896,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW23")
+					(reference "SW23_R1")
 					(unit 1)
 				)
 			)
@@ -15142,8 +14913,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c8381e8-567f-4da4-9a95-9d8b5a890bcc")
-		(property "Reference" "D53"
-			(at 198.12 135.636 0)
+		(property "Reference" "D53_R1"
+			(at 198.12 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15240,7 +15011,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D53")
+					(reference "D53_R1")
 					(unit 1)
 				)
 			)
@@ -15257,8 +15028,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d1a8e9a-9bfd-4388-a719-b23b8ddfef72")
-		(property "Reference" "R27"
-			(at 198.628 181.61 90)
+		(property "Reference" "R27_R1"
+			(at 198.12 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15343,7 +15114,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R27")
+					(reference "R27_R1")
 					(unit 1)
 				)
 			)
@@ -15361,7 +15132,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ee6f51e-169c-4b8c-8939-54fd78e5d0b7")
-		(property "Reference" "SW26"
+		(property "Reference" "SW26_R1"
 			(at 228.6 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15424,7 +15195,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW26")
+					(reference "SW26_R1")
 					(unit 1)
 				)
 			)
@@ -15441,7 +15212,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f582113-91c4-47fd-9e2c-e246f76bd958")
-		(property "Reference" "RSW2"
+		(property "Reference" "RSW2_R1"
 			(at 34.29 180.086 0)
 			(hide yes)
 			(show_name no)
@@ -15504,7 +15275,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "RSW2")
+					(reference "RSW2_R1")
 					(unit 1)
 				)
 			)
@@ -15521,7 +15292,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4025e0fb-2656-4c42-a6c4-e7fee6832e2c")
-		(property "Reference" "D89"
+		(property "Reference" "D89_R1"
 			(at 266.446 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15608,7 +15379,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D89")
+					(reference "D89_R1")
 					(unit 1)
 				)
 			)
@@ -15625,8 +15396,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42fce755-7f44-4f53-a253-6b6f1f7ae90f")
-		(property "Reference" "D70"
-			(at 217.17 153.416 0)
+		(property "Reference" "D70_R1"
+			(at 217.17 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15723,13 +15494,14 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D70")
+					(reference "D70_R1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 153.67 148.59 90)
 		(unit 1)
@@ -15739,8 +15511,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "48799080-a103-48be-aa40-5a0465f027b6")
-		(property "Reference" "#PWR041"
+		(uuid "48400262-1e7c-49b7-9615-aa20f4a5f0a3")
+		(property "Reference" "GND_R06"
 			(at 160.02 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -15751,8 +15523,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 158.0642 148.463 0)
+		(property "Value" "GND_R"
+			(at 160.02 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15783,8 +15555,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 153.67 148.59 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15794,12 +15567,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a791a75e-3286-470a-93d1-9ac36db8556e")
+			(uuid "6b96b658-5486-48b9-a0c7-462ae20950e0")
 		)
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR041")
+					(reference "GND_R06")
 					(unit 1)
 				)
 			)
@@ -15816,7 +15589,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b324537-65de-4eb0-b0ac-6c45310d8c17")
-		(property "Reference" "D91"
+		(property "Reference" "D91_R1"
 			(at 279.146 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15903,7 +15676,85 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D91")
+					(reference "D91_R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 97.79 93.98 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d69a6d1-4e6f-4dcf-a2ba-41eb729cf384")
+		(property "Reference" "GND_R04"
+			(at 91.44 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_R"
+			(at 92.71 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2641f3b-0251-48fb-a669-b1bcb75a651e")
+		)
+		(instances
+			(project "dormin"
+				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
+					(reference "GND_R04")
 					(unit 1)
 				)
 			)
@@ -15920,8 +15771,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d93a85e-c9fc-4910-8664-aa36d31b8c0f")
-		(property "Reference" "D55"
-			(at 198.12 171.196 0)
+		(property "Reference" "D55_R1"
+			(at 198.12 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16018,7 +15869,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D55")
+					(reference "D55_R1")
 					(unit 1)
 				)
 			)
@@ -16035,8 +15886,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5037580c-74bb-44c2-b317-76f6eb1ab146")
-		(property "Reference" "D59"
-			(at 204.47 171.196 0)
+		(property "Reference" "D59_R1"
+			(at 204.47 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16133,7 +15984,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D59")
+					(reference "D59_R1")
 					(unit 1)
 				)
 			)
@@ -16150,7 +16001,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5082483f-7981-44c8-8fc6-ea750c246110")
-		(property "Reference" "D84"
+		(property "Reference" "D84_R1"
 			(at 238.506 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16237,7 +16088,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D84")
+					(reference "D84_R1")
 					(unit 1)
 				)
 			)
@@ -16254,8 +16105,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50c91951-4c21-4b7e-988a-9dc6f15b40e7")
-		(property "Reference" "R38"
-			(at 217.678 163.83 90)
+		(property "Reference" "R38_R1"
+			(at 217.17 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16340,7 +16191,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R38")
+					(reference "R38_R1")
 					(unit 1)
 				)
 			)
@@ -16357,7 +16208,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53826de6-640f-4b63-9a14-3ac6184a10eb")
-		(property "Reference" "MH8"
+		(property "Reference" "MH8_R1"
 			(at 143.256 196.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16415,7 +16266,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "MH8")
+					(reference "MH8_R1")
 					(unit 1)
 				)
 			)
@@ -16432,8 +16283,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5409a159-24e3-4fc6-9d4e-379f6ad3d821")
-		(property "Reference" "D71"
-			(at 217.17 171.196 0)
+		(property "Reference" "D71_R1"
+			(at 217.17 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16530,7 +16381,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D71")
+					(reference "D71_R1")
 					(unit 1)
 				)
 			)
@@ -16547,7 +16398,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55d55961-a524-4bee-9094-12a7905fec81")
-		(property "Reference" "D73"
+		(property "Reference" "D73_R1"
 			(at 225.806 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16634,7 +16485,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D73")
+					(reference "D73_R1")
 					(unit 1)
 				)
 			)
@@ -16651,7 +16502,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "577162ea-b549-4b5e-9bc7-5e43b3cbaee8")
-		(property "Reference" "D64"
+		(property "Reference" "D64_R1"
 			(at 213.106 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16738,7 +16589,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D64")
+					(reference "D64_R1")
 					(unit 1)
 				)
 			)
@@ -16755,7 +16606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58a895a3-448a-4e56-824e-ba8d9c339ee8")
-		(property "Reference" "MH5"
+		(property "Reference" "MH5_R1"
 			(at 143.256 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16813,7 +16664,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "MH5")
+					(reference "MH5_R1")
 					(unit 1)
 				)
 			)
@@ -16830,7 +16681,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ae8bb3f-f3b3-4d5f-8901-6f491e40a13c")
-		(property "Reference" "C7"
+		(property "Reference" "C7_R1"
 			(at 100.076 198.882 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16905,7 +16756,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "C7")
+					(reference "C7_R1")
 					(unit 1)
 				)
 			)
@@ -16922,8 +16773,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f582537-aac2-480a-8746-0947bd06d7fe")
-		(property "Reference" "R31"
-			(at 204.978 181.61 90)
+		(property "Reference" "R31_R1"
+			(at 204.47 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17008,7 +16859,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R31")
+					(reference "R31_R1")
 					(unit 1)
 				)
 			)
@@ -17026,7 +16877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fa6501f-0045-4708-a3b7-300c365fde3a")
-		(property "Reference" "D49"
+		(property "Reference" "D49_R1"
 			(at 126.0475 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17099,7 +16950,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D49")
+					(reference "D49_R1")
 					(unit 1)
 				)
 			)
@@ -17117,7 +16968,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6154d346-8973-4c97-b3af-5a0f1f9d6732")
-		(property "Reference" "SW30"
+		(property "Reference" "SW30_R1"
 			(at 241.3 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17180,7 +17031,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW30")
+					(reference "SW30_R1")
 					(unit 1)
 				)
 			)
@@ -17197,8 +17048,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61568f45-aa82-45cf-bd05-87677e58b0d8")
-		(property "Reference" "R44"
-			(at 230.378 181.61 90)
+		(property "Reference" "R44_R1"
+			(at 229.87 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17283,7 +17134,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R44")
+					(reference "R44_R1")
 					(unit 1)
 				)
 			)
@@ -17301,7 +17152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63e5bad7-e2f7-42c3-90f3-2f5f4a65bf42")
-		(property "Reference" "SW31"
+		(property "Reference" "SW31_R1"
 			(at 241.3 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17364,7 +17215,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW31")
+					(reference "SW31_R1")
 					(unit 1)
 				)
 			)
@@ -17382,7 +17233,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "641a2f16-4135-4a2a-aae8-38609daa1dea")
-		(property "Reference" "SW24"
+		(property "Reference" "SW24_R1"
 			(at 215.9 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17445,7 +17296,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW24")
+					(reference "SW24_R1")
 					(unit 1)
 				)
 			)
@@ -17462,7 +17313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "678cb29e-1db0-4349-abf4-bc92cf3de405")
-		(property "Reference" "J4"
+		(property "Reference" "J4_R1"
 			(at 91.44 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17538,7 +17389,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "J4")
+					(reference "J4_R1")
 					(unit 1)
 				)
 			)
@@ -17555,8 +17406,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69fcd266-8540-4241-b646-cf4f8b162109")
-		(property "Reference" "R36"
-			(at 211.328 199.39 90)
+		(property "Reference" "R36_R1"
+			(at 210.82 201.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17641,7 +17492,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R36")
+					(reference "R36_R1")
 					(unit 1)
 				)
 			)
@@ -17658,7 +17509,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b07ca4d-1f4a-4dc3-bb36-b7bad339d259")
-		(property "Reference" "D48"
+		(property "Reference" "D48_R1"
 			(at 121.666 145.288 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17729,7 +17580,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D48")
+					(reference "D48_R1")
 					(unit 1)
 				)
 			)
@@ -17746,7 +17597,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b8c75fe-43cc-415f-acd8-d1c7ffefad3b")
-		(property "Reference" "D62"
+		(property "Reference" "D62_R1"
 			(at 213.106 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17833,7 +17684,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D62")
+					(reference "D62_R1")
 					(unit 1)
 				)
 			)
@@ -17850,7 +17701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ee54711-ca32-450d-a518-384778d932a1")
-		(property "Reference" "TP5"
+		(property "Reference" "TP5_R1"
 			(at 52.07 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17911,7 +17762,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "TP5")
+					(reference "TP5_R1")
 					(unit 1)
 				)
 			)
@@ -17928,7 +17779,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "701ad6d6-9efe-4c11-855f-2ef73776fb98")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR033_R01"
 			(at 72.39 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -17939,8 +17790,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 72.39 203.454 90)
+		(property "Value" "GND_R"
+			(at 74.93 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17989,7 +17840,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR033")
+					(reference "#PWR033_R01")
 					(unit 1)
 				)
 			)
@@ -18006,7 +17857,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71848f3f-911c-473b-8425-0c8513e4cc2f")
-		(property "Reference" "D87"
+		(property "Reference" "D87_R1"
 			(at 252.476 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18093,7 +17944,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D87")
+					(reference "D87_R1")
 					(unit 1)
 				)
 			)
@@ -18110,8 +17961,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71a6bd09-4a57-4432-9ba8-03989717f533")
-		(property "Reference" "D51"
-			(at 137.16 30.48 0)
+		(property "Reference" "D51_R1"
+			(at 138.43 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18183,7 +18034,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D51")
+					(reference "D51_R1")
 					(unit 1)
 				)
 			)
@@ -18200,7 +18051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71bcb2ec-dedf-4fef-9ea6-3704bd7656e3")
-		(property "Reference" "U5"
+		(property "Reference" "U5_R1"
 			(at 45.212 17.018 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18345,7 +18196,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "U5")
+					(reference "U5_R1")
 					(unit 1)
 				)
 			)
@@ -18362,7 +18213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72ad4a05-e9b5-4f1a-afdf-66e0ad53ea46")
-		(property "Reference" "D83"
+		(property "Reference" "D83_R1"
 			(at 238.506 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18449,7 +18300,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D83")
+					(reference "D83_R1")
 					(unit 1)
 				)
 			)
@@ -18457,7 +18308,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 71.12 95.25 270)
+		(at 71.12 91.44 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18466,8 +18317,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74453702-5c34-4b22-b53c-68cd2ab32442")
-		(property "Reference" "TP6"
-			(at 72.39 100.33 0)
+		(property "Reference" "TP6_R1"
+			(at 72.39 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18477,8 +18328,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "STS_LED_EN"
-			(at 74.93 107.95 0)
+		(property "Value" "STS_LED_EN_R"
+			(at 74.93 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18489,7 +18340,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 71.12 100.33 0)
+			(at 71.12 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18500,7 +18351,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 100.33 0)
+			(at 71.12 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18511,7 +18362,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 71.12 95.25 0)
+			(at 71.12 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18527,7 +18378,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "TP6")
+					(reference "TP6_R1")
 					(unit 1)
 				)
 			)
@@ -18544,7 +18395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78758792-99e0-46fe-8053-98bc115b4564")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR045_R01"
 			(at 200.66 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -18555,7 +18406,7 @@
 				)
 			)
 		)
-		(property "Value" "VBAT"
+		(property "Value" "VBAT_R"
 			(at 193.04 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18605,7 +18456,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR045")
+					(reference "#PWR045_R01")
 					(unit 1)
 				)
 			)
@@ -18622,8 +18473,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78ef355d-980b-47df-8f77-1f60af896a54")
-		(property "Reference" "R26"
-			(at 198.628 163.83 90)
+		(property "Reference" "R26_R1"
+			(at 198.12 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18708,7 +18559,87 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R26")
+					(reference "R26_R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 129.54 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7992a9a7-8243-426f-aa22-79a44d28192c")
+		(property "Reference" "GND_R02"
+			(at 129.54 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_R"
+			(at 132.08 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a11243c-bebe-4747-836f-39a665904e35")
+		)
+		(instances
+			(project "dormin"
+				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
+					(reference "GND_R02")
 					(unit 1)
 				)
 			)
@@ -18725,8 +18656,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79d80169-8d64-49e3-930f-b6adf01dfeae")
-		(property "Reference" "R25"
-			(at 198.628 146.05 90)
+		(property "Reference" "R25_R1"
+			(at 198.12 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18811,7 +18742,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R25")
+					(reference "R25_R1")
 					(unit 1)
 				)
 			)
@@ -18828,7 +18759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a33c121-5ad0-44bf-b382-750d5b9a72a9")
-		(property "Reference" "C5"
+		(property "Reference" "C5_R1"
 			(at 59.69 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18903,7 +18834,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "C5")
+					(reference "C5_R1")
 					(unit 1)
 				)
 			)
@@ -18920,8 +18851,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b84e927-9449-456b-9cab-02e89df15dc3")
-		(property "Reference" "D77"
-			(at 223.52 153.416 0)
+		(property "Reference" "D77_R1"
+			(at 223.52 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19018,7 +18949,87 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D77")
+					(reference "D77_R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 146.05 44.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c189b54-640f-4547-bf60-46691fb7e383")
+		(property "Reference" "GND_R01"
+			(at 152.4 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_R"
+			(at 149.86 44.4499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "daed62fb-05c4-4817-9dc4-5a05a6b0e5c8")
+		)
+		(instances
+			(project "dormin"
+				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
+					(reference "GND_R01")
 					(unit 1)
 				)
 			)
@@ -19035,8 +19046,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c569d72-85cc-4d3a-a90c-3eda051ad27b")
-		(property "Reference" "D69"
-			(at 217.17 135.636 0)
+		(property "Reference" "D69_R1"
+			(at 217.17 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19133,7 +19144,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D69")
+					(reference "D69_R1")
 					(unit 1)
 				)
 			)
@@ -19151,7 +19162,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d2cb2f2-3d1b-4d4d-90a1-593c7e7112b2")
-		(property "Reference" "SW29"
+		(property "Reference" "SW29_R1"
 			(at 241.3 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19214,7 +19225,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW29")
+					(reference "SW29_R1")
 					(unit 1)
 				)
 			)
@@ -19231,7 +19242,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7dc91b11-7d95-4508-9b1b-f0d51556f6b1")
-		(property "Reference" "F2"
+		(property "Reference" "F1_R1"
 			(at 114.3 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19305,7 +19316,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "F2")
+					(reference "F1_R1")
 					(unit 1)
 				)
 			)
@@ -19322,8 +19333,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e95963c-6396-4e33-aefe-46f0551516c7")
-		(property "Reference" "D76"
-			(at 223.52 135.636 0)
+		(property "Reference" "D76_R1"
+			(at 223.52 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19420,7 +19431,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D76")
+					(reference "D76_R1")
 					(unit 1)
 				)
 			)
@@ -19438,7 +19449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80bdf686-b466-4a1b-8896-af05506c62cc")
-		(property "Reference" "Q4"
+		(property "Reference" "Q4_R1"
 			(at 292.1 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19519,7 +19530,84 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "Q4")
+					(reference "Q4_R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 33.02 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8677771e-fff1-4acd-8ad8-91dcccf010f1")
+		(property "Reference" "3V3_R03"
+			(at 36.83 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3_R"
+			(at 26.67 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 33.02 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92ffdb6c-c95a-4bb6-afdd-a4e234e2ef2e")
+		)
+		(instances
+			(project "dormin"
+				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
+					(reference "3V3_R03")
 					(unit 1)
 				)
 			)
@@ -19536,8 +19624,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87752eb5-5159-4d1d-b780-3d214fdd204a")
-		(property "Reference" "D60"
-			(at 204.47 188.976 0)
+		(property "Reference" "D60_R1"
+			(at 204.47 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19634,15 +19722,16 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D60")
+					(reference "D60_R1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 97.79 96.52 90)
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 161.29 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19650,10 +19739,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "889074c5-a330-498c-80a2-aaa8d0a34570")
-		(property "Reference" "#PWR036"
-			(at 101.6 96.52 0)
+		(uuid "882fb496-aba2-40d0-a46d-90dc30c81f3d")
+		(property "Reference" "GND_R03"
+			(at 154.94 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19663,19 +19751,18 @@
 				)
 			)
 		)
-		(property "Value" "3V3"
-			(at 93.98 96.5199 90)
+		(property "Value" "GND_R"
+			(at 156.21 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 96.52 0)
+			(at 161.29 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19686,7 +19773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 96.52 0)
+			(at 161.29 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19696,8 +19783,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 97.79 96.52 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19708,12 +19795,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a40e1ca7-e1a9-49df-97a4-86a5710cdef3")
+			(uuid "055f9aa7-0f85-4373-8e4c-277bae3f1092")
 		)
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR036")
+					(reference "GND_R03")
 					(unit 1)
 				)
 			)
@@ -19730,7 +19817,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "890ce75b-7c77-401e-b021-68231eb378f1")
-		(property "Reference" "R23"
+		(property "Reference" "R23_R1"
 			(at 109.22 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19803,7 +19890,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R23")
+					(reference "R23_R1")
 					(unit 1)
 				)
 			)
@@ -19820,7 +19907,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b65e0f6-3eed-4735-8537-e5cf0744a25c")
-		(property "Reference" "D92"
+		(property "Reference" "D92_R1"
 			(at 279.146 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19907,7 +19994,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D92")
+					(reference "D92_R1")
 					(unit 1)
 				)
 			)
@@ -19916,7 +20003,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 97.79 93.98 270)
+		(at 53.34 38.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19924,90 +20011,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b819ef3-6f40-42dd-a860-af35604f7c00")
-		(property "Reference" "#PWR035"
-			(at 91.44 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 93.98 93.9799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a7942086-0c37-4c6e-b6e5-e24b3920b8b5")
-		)
-		(instances
-			(project "dormin"
-				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 53.34 41.91 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8c571e61-3e15-471d-bff2-534fe4af1977")
-		(property "Reference" "#PWR06"
-			(at 53.34 35.56 0)
+		(property "Reference" "GND_R07"
+			(at 59.69 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20017,8 +20023,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 53.34 36.83 0)
+		(property "Value" "GND_R"
+			(at 59.69 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20028,7 +20034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 41.91 0)
+			(at 53.34 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20039,7 +20045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 41.91 0)
+			(at 53.34 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20050,7 +20056,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 41.91 0)
+			(at 53.34 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20066,7 +20072,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR06")
+					(reference "GND_R07")
 					(unit 1)
 				)
 			)
@@ -20083,7 +20089,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f0133b8-2c4a-42e0-9d3c-7d2b5b153b02")
-		(property "Reference" "C6"
+		(property "Reference" "C6_R1"
 			(at 71.12 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20158,7 +20164,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "C6")
+					(reference "C6_R1")
 					(unit 1)
 				)
 			)
@@ -20176,7 +20182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9251a96d-ebbf-4e1b-91d9-b994a7b768fa")
-		(property "Reference" "Q3"
+		(property "Reference" "Q3_R1"
 			(at 48.26 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20257,7 +20263,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "Q3")
+					(reference "Q3_R1")
 					(unit 1)
 				)
 			)
@@ -20274,7 +20280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9256fb6e-4f00-41e3-8674-cc6076b12d24")
-		(property "Reference" "U6"
+		(property "Reference" "U6_R1"
 			(at 127 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20352,7 +20358,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "U6")
+					(reference "U6_R1")
 					(unit 1)
 				)
 			)
@@ -20369,7 +20375,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "999b54dc-2b14-492c-bd99-940fa865bb67")
-		(property "Reference" "D75"
+		(property "Reference" "D75_R1"
 			(at 225.806 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20456,7 +20462,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D75")
+					(reference "D75_R1")
 					(unit 1)
 				)
 			)
@@ -20473,8 +20479,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99da4882-6f6e-4419-8384-b7f9a53c5cb6")
-		(property "Reference" "R43"
-			(at 230.378 163.83 90)
+		(property "Reference" "R43_R1"
+			(at 229.87 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20559,7 +20565,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R43")
+					(reference "R43_R1")
 					(unit 1)
 				)
 			)
@@ -20576,8 +20582,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f1eea3e-962c-44ac-87d5-5b795b5939ad")
-		(property "Reference" "D54"
-			(at 198.12 153.416 0)
+		(property "Reference" "D54_R1"
+			(at 198.12 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20674,7 +20680,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D54")
+					(reference "D54_R1")
 					(unit 1)
 				)
 			)
@@ -20691,7 +20697,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ffdcc2d-40e3-4bcc-a6a1-f4c4bb38e1e4")
-		(property "Reference" "D61"
+		(property "Reference" "D61_R1"
 			(at 213.106 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20778,7 +20784,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D61")
+					(reference "D61_R1")
 					(unit 1)
 				)
 			)
@@ -20796,7 +20802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a147c0b8-ed04-45e0-b789-6e969793b3f5")
-		(property "Reference" "#PWR022"
+		(property "Reference" "VBAT_R01"
 			(at 45.72 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -20807,7 +20813,7 @@
 				)
 			)
 		)
-		(property "Value" "VBAT"
+		(property "Value" "VBAT_R"
 			(at 45.72 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20856,7 +20862,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR022")
+					(reference "VBAT_R01")
 					(unit 1)
 				)
 			)
@@ -20874,7 +20880,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1928a9a-d59a-4d65-b83e-d6725f2a09af")
-		(property "Reference" "SW21"
+		(property "Reference" "SW21_R1"
 			(at 215.9 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20937,7 +20943,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW21")
+					(reference "SW21_R1")
 					(unit 1)
 				)
 			)
@@ -20955,7 +20961,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2b4d386-f35c-4740-87f6-78036292edb4")
-		(property "Reference" "SW37"
+		(property "Reference" "SW37_R1"
 			(at 269.24 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21018,7 +21024,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW37")
+					(reference "SW37_R1")
 					(unit 1)
 				)
 			)
@@ -21035,7 +21041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6e8e1f6-6152-4fed-91bd-7f5da993660a")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR046_R01"
 			(at 200.66 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -21046,7 +21052,7 @@
 				)
 			)
 		)
-		(property "Value" "VBAT"
+		(property "Value" "VBAT_R"
 			(at 193.04 168.9099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21096,7 +21102,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR046")
+					(reference "#PWR046_R01")
 					(unit 1)
 				)
 			)
@@ -21113,8 +21119,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a989dbb0-4e4b-4d5b-bf41-734b1f35f7ba")
-		(property "Reference" "R41"
-			(at 224.028 163.83 90)
+		(property "Reference" "R41_R1"
+			(at 223.52 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21199,7 +21205,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R41")
+					(reference "R41_R1")
 					(unit 1)
 				)
 			)
@@ -21216,8 +21222,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa0a8164-d808-4be3-89fa-3bad9ec0e409")
-		(property "Reference" "R30"
-			(at 204.978 163.83 90)
+		(property "Reference" "R30_R1"
+			(at 204.47 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21302,7 +21308,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R30")
+					(reference "R30_R1")
 					(unit 1)
 				)
 			)
@@ -21319,8 +21325,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab1082b6-909f-43f2-bc4e-c4067754c6f2")
-		(property "Reference" "R37"
-			(at 217.678 146.05 90)
+		(property "Reference" "R37_R1"
+			(at 217.17 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21405,7 +21411,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R37")
+					(reference "R37_R1")
 					(unit 1)
 				)
 			)
@@ -21422,8 +21428,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae9b64a5-97f9-4ed2-9e2d-642db8d3b310")
-		(property "Reference" "D65"
-			(at 210.82 135.636 0)
+		(property "Reference" "D65_R1"
+			(at 210.82 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21520,7 +21526,84 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D65")
+					(reference "D65_R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 97.79 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aedd4174-4965-4650-95a8-daad9364894f")
+		(property "Reference" "3V3_R01"
+			(at 101.6 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3_R"
+			(at 91.44 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 97.79 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7dbb7d34-dd09-4ffa-afee-2ac06cf3b6a8")
+		)
+		(instances
+			(project "dormin"
+				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
+					(reference "3V3_R01")
 					(unit 1)
 				)
 			)
@@ -21537,8 +21620,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b03dc1e9-0f13-41f2-8b48-db4d4eada257")
-		(property "Reference" "D80"
-			(at 229.87 171.196 0)
+		(property "Reference" "D80_R1"
+			(at 229.87 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21635,7 +21718,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D80")
+					(reference "D80_R1")
 					(unit 1)
 				)
 			)
@@ -21653,7 +21736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1044cb9-a151-493a-a9ba-201807fe4711")
-		(property "Reference" "#PWR030"
+		(property "Reference" "5V_R02"
 			(at 60.96 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -21664,7 +21747,7 @@
 				)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V_R"
 			(at 68.58 48.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21714,7 +21797,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR030")
+					(reference "5V_R02")
 					(unit 1)
 				)
 			)
@@ -21731,7 +21814,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2932715-f991-4dc8-ba3f-32edecc3fd13")
-		(property "Reference" "D85"
+		(property "Reference" "D85_R1"
 			(at 252.476 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21818,7 +21901,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D85")
+					(reference "D85_R1")
 					(unit 1)
 				)
 			)
@@ -21835,8 +21918,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4684a99-9be0-410d-aaf4-c280f006777e")
-		(property "Reference" "D66"
-			(at 210.82 153.416 0)
+		(property "Reference" "D66_R1"
+			(at 210.82 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21933,7 +22016,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D66")
+					(reference "D66_R1")
 					(unit 1)
 				)
 			)
@@ -21951,7 +22034,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6c7e408-d242-4347-83d8-9a7ad85115b6")
-		(property "Reference" "SW35"
+		(property "Reference" "SW35_R1"
 			(at 255.27 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22014,7 +22097,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW35")
+					(reference "SW35_R1")
 					(unit 1)
 				)
 			)
@@ -22032,7 +22115,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7d2cf4a-fd4b-429e-b4f9-21f8b7e2f931")
-		(property "Reference" "SW40"
+		(property "Reference" "SW40_R1"
 			(at 281.94 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22095,7 +22178,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW40")
+					(reference "SW40_R1")
 					(unit 1)
 				)
 			)
@@ -22112,8 +22195,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8e6fe42-8a6e-4ca5-a88e-1dd9cec4cd10")
-		(property "Reference" "D78"
-			(at 223.52 171.196 0)
+		(property "Reference" "D78_R1"
+			(at 223.52 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22210,7 +22293,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D78")
+					(reference "D78_R1")
 					(unit 1)
 				)
 			)
@@ -22227,7 +22310,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9e0da97-d562-4712-9ddb-8adcb2981e56")
-		(property "Reference" "D88"
+		(property "Reference" "D88_R1"
 			(at 266.446 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22314,7 +22397,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D88")
+					(reference "D88_R1")
 					(unit 1)
 				)
 			)
@@ -22331,8 +22414,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "befd0e75-ee6a-41b5-8c60-05333819fae7")
-		(property "Reference" "D79"
-			(at 229.87 153.416 0)
+		(property "Reference" "D79_R1"
+			(at 229.87 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22429,7 +22512,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D79")
+					(reference "D79_R1")
 					(unit 1)
 				)
 			)
@@ -22446,7 +22529,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf829d2e-1d04-4d16-a392-59820d4919d1")
-		(property "Reference" "JST2"
+		(property "Reference" "JST2_R1"
 			(at 60.96 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22520,7 +22603,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "JST2")
+					(reference "JST2_R1")
 					(unit 1)
 				)
 			)
@@ -22538,7 +22621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c045a94d-1542-4899-b81b-3a3cef3f91ed")
-		(property "Reference" "SW25"
+		(property "Reference" "SW25_R1"
 			(at 228.6 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22601,7 +22684,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW25")
+					(reference "SW25_R1")
 					(unit 1)
 				)
 			)
@@ -22618,7 +22701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1363dff-3b21-4bc2-ad68-7eef40c3d813")
-		(property "Reference" "D81"
+		(property "Reference" "D81_R1"
 			(at 238.506 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22705,7 +22788,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D81")
+					(reference "D81_R1")
 					(unit 1)
 				)
 			)
@@ -22723,7 +22806,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c357d901-50a9-43a6-98e8-550ff0169162")
-		(property "Reference" "R713"
+		(property "Reference" "R713_R1"
 			(at 27.94 144.018 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22808,7 +22891,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R713")
+					(reference "R713_R1")
 					(unit 1)
 				)
 			)
@@ -22825,7 +22908,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3e7c801-6ad6-492f-8d5c-b926e3d5112f")
-		(property "Reference" "D74"
+		(property "Reference" "D74_R1"
 			(at 225.806 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22912,7 +22995,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D74")
+					(reference "D74_R1")
 					(unit 1)
 				)
 			)
@@ -22929,7 +23012,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c75a3246-f316-42e0-a4a2-8b4022dd7527")
-		(property "Reference" "MH7"
+		(property "Reference" "MH7_R1"
 			(at 143.256 191.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22987,7 +23070,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "MH7")
+					(reference "MH7_R1")
 					(unit 1)
 				)
 			)
@@ -23004,8 +23087,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9d20de7-1ac3-4a09-b85c-279b672a7eeb")
-		(property "Reference" "D57"
-			(at 204.47 135.636 0)
+		(property "Reference" "D57_R1"
+			(at 204.47 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23102,7 +23185,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D57")
+					(reference "D57_R1")
 					(unit 1)
 				)
 			)
@@ -23120,7 +23203,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca6d9e99-b675-4b79-982b-d337c35d875d")
-		(property "Reference" "SW32"
+		(property "Reference" "SW32_R1"
 			(at 241.3 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23183,7 +23266,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW32")
+					(reference "SW32_R1")
 					(unit 1)
 				)
 			)
@@ -23200,8 +23283,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cacba841-d267-4195-9cad-232ee8811fbd")
-		(property "Reference" "R29"
-			(at 204.978 146.05 90)
+		(property "Reference" "R29_R1"
+			(at 204.47 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23286,7 +23369,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R29")
+					(reference "R29_R1")
 					(unit 1)
 				)
 			)
@@ -23303,8 +23386,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbc9a34b-a8ca-44e2-8af4-c58d48e72216")
-		(property "Reference" "R34"
-			(at 211.328 163.83 90)
+		(property "Reference" "R34_R1"
+			(at 210.82 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23389,7 +23472,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R34")
+					(reference "R34_R1")
 					(unit 1)
 				)
 			)
@@ -23407,7 +23490,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd2add1c-2632-47b9-847a-880e16fb2618")
-		(property "Reference" "SW22"
+		(property "Reference" "SW22_R1"
 			(at 215.9 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23470,7 +23553,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW22")
+					(reference "SW22_R1")
 					(unit 1)
 				)
 			)
@@ -23487,7 +23570,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2b78e8b-8038-43bd-ad6f-871676b23b5b")
-		(property "Reference" "D47"
+		(property "Reference" "D47_R1"
 			(at 103.886 145.288 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23558,7 +23641,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D47")
+					(reference "D47_R1")
 					(unit 1)
 				)
 			)
@@ -23575,8 +23658,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d469a665-30a3-48f6-a3cf-861c4d373c47")
-		(property "Reference" "D67"
-			(at 210.82 171.196 0)
+		(property "Reference" "D67_R1"
+			(at 210.82 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23673,7 +23756,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D67")
+					(reference "D67_R1")
 					(unit 1)
 				)
 			)
@@ -23691,7 +23774,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d504dac0-b039-44d5-baa0-731b0be472ba")
-		(property "Reference" "SW39"
+		(property "Reference" "SW39_R1"
 			(at 281.94 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23754,7 +23837,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW39")
+					(reference "SW39_R1")
 					(unit 1)
 				)
 			)
@@ -23772,7 +23855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da1c7889-57dc-434e-99f7-8650ff1cd313")
-		(property "Reference" "J5"
+		(property "Reference" "J5_R1"
 			(at 152.4 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23842,85 +23925,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 107.95 40.64 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd53ea73-1e06-4383-9dff-26d3c53e588f")
-		(property "Reference" "#PWR037"
-			(at 111.76 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5V"
-			(at 106.68 38.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 107.95 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c6311e80-0d26-4c4b-a1a2-301d27bb5b47")
-		)
-		(instances
-			(project "dormin"
-				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR037")
+					(reference "J5_R1")
 					(unit 1)
 				)
 			)
@@ -23937,7 +23942,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea485a38-9b40-461d-a89a-7deeba0f3046")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR048_R01"
 			(at 288.29 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -23948,7 +23953,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND_R"
 			(at 288.417 177.1142 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23996,7 +24001,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR048")
+					(reference "#PWR048_R01")
 					(unit 1)
 				)
 			)
@@ -24014,7 +24019,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea59aff4-1c70-4922-981c-d7470f5ec47e")
-		(property "Reference" "SW36"
+		(property "Reference" "SW36_R1"
 			(at 269.24 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24077,7 +24082,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW36")
+					(reference "SW36_R1")
 					(unit 1)
 				)
 			)
@@ -24094,7 +24099,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eaaacf73-b0f7-485d-90aa-06bafeefcd4c")
-		(property "Reference" "R715"
+		(property "Reference" "R715_R1"
 			(at 85.09 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24179,7 +24184,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "R715")
+					(reference "R715_R1")
 					(unit 1)
 				)
 			)
@@ -24196,7 +24201,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec74034f-a4ac-4dd2-b16a-dc6ed7b06f89")
-		(property "Reference" "D82"
+		(property "Reference" "D82_R1"
 			(at 238.506 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24283,7 +24288,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D82")
+					(reference "D82_R1")
 					(unit 1)
 				)
 			)
@@ -24302,7 +24307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0bd1ee9-3da3-49fd-8a7c-c6107ebf37be")
-		(property "Reference" "#PWR031"
+		(property "Reference" "GND_R09"
 			(at 71.12 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -24313,7 +24318,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND_R"
 			(at 68.58 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24363,7 +24368,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR031")
+					(reference "GND_R09")
 					(unit 1)
 				)
 			)
@@ -24380,8 +24385,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f30d0ab0-1ceb-4521-9951-ec8fcbd73302")
-		(property "Reference" "D58"
-			(at 204.47 153.416 0)
+		(property "Reference" "D58_R1"
+			(at 204.47 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24478,7 +24483,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D58")
+					(reference "D58_R1")
 					(unit 1)
 				)
 			)
@@ -24495,7 +24500,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f70a7133-e499-4d21-8cee-4934509dcbec")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR047_R01"
 			(at 200.66 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -24506,7 +24511,7 @@
 				)
 			)
 		)
-		(property "Value" "VBAT"
+		(property "Value" "VBAT_R"
 			(at 193.04 186.6899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24556,7 +24561,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR047")
+					(reference "#PWR047_R01")
 					(unit 1)
 				)
 			)
@@ -24575,7 +24580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8a90aa1-be95-4768-b518-d80db78296f1")
-		(property "Reference" "#PWR023"
+		(property "Reference" "GND_R08"
 			(at 59.69 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -24586,7 +24591,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND_R"
 			(at 57.15 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24636,7 +24641,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR023")
+					(reference "GND_R08")
 					(unit 1)
 				)
 			)
@@ -24654,7 +24659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8f5ca4b-8c74-4ce3-ad4d-d5c3f5ee500b")
-		(property "Reference" "SW28"
+		(property "Reference" "SW28_R1"
 			(at 228.6 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24717,7 +24722,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW28")
+					(reference "SW28_R1")
 					(unit 1)
 				)
 			)
@@ -24735,7 +24740,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb6e2b7b-2c28-4208-9be2-444b909265f0")
-		(property "Reference" "SW33"
+		(property "Reference" "SW33_R1"
 			(at 255.27 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24798,7 +24803,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW33")
+					(reference "SW33_R1")
 					(unit 1)
 				)
 			)
@@ -24816,7 +24821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb795044-4017-48a0-9179-42c896c48972")
-		(property "Reference" "C8"
+		(property "Reference" "C8_R1"
 			(at 113.03 195.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24891,7 +24896,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "C8")
+					(reference "C8_R1")
 					(unit 1)
 				)
 			)
@@ -24908,8 +24913,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd2e6ef1-f346-4397-a96a-d48eb0aef606")
-		(property "Reference" "D56"
-			(at 198.12 188.976 0)
+		(property "Reference" "D56_R1"
+			(at 198.12 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25006,7 +25011,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D56")
+					(reference "D56_R1")
 					(unit 1)
 				)
 			)
