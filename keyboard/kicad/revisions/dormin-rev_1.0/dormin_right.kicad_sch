@@ -12241,7 +12241,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16a96f7c-16c7-498e-a19b-dfe337d0dca0")
-		(property "Reference" "SW34_R1"
+		(property "Reference" "SW34"
 			(at 255.27 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12304,7 +12304,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW34_R1")
+					(reference "SW34")
 					(unit 1)
 				)
 			)
@@ -13830,7 +13830,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "360c7943-08a6-4491-bae5-0d80987a2006")
-		(property "Reference" "SW27_R1"
+		(property "Reference" "SW27"
 			(at 228.6 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13893,7 +13893,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW27_R1")
+					(reference "SW27")
 					(unit 1)
 				)
 			)
@@ -14015,7 +14015,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3823d317-791c-42a5-b016-3f8bc8335296")
-		(property "Reference" "SW38_R1"
+		(property "Reference" "SW38"
 			(at 269.24 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14078,7 +14078,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW38_R1")
+					(reference "SW38")
 					(unit 1)
 				)
 			)
@@ -14174,7 +14174,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b5e7eaa-db74-4fb8-8615-86a6a7516669")
-		(property "Reference" "SW23_R1"
+		(property "Reference" "SW23"
 			(at 215.9 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14237,7 +14237,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW23_R1")
+					(reference "SW23")
 					(unit 1)
 				)
 			)
@@ -14474,7 +14474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e269f1f-e0e7-43a3-8aca-0d5ee8fcf508")
-		(property "Reference" "#PWR013_E"
+		(property "Reference" "#PWR013_E01"
 			(at 135.89 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -14535,7 +14535,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR013_E")
+					(reference "#PWR013_E01")
 					(unit 1)
 				)
 			)
@@ -14553,7 +14553,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ee6f51e-169c-4b8c-8939-54fd78e5d0b7")
-		(property "Reference" "SW26_R1"
+		(property "Reference" "SW26"
 			(at 228.6 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14616,7 +14616,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW26_R1")
+					(reference "SW26")
 					(unit 1)
 				)
 			)
@@ -15308,7 +15308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fbe933d-d5d1-4ed4-9e65-76c89f07b393")
-		(property "Reference" "#PWR019_R"
+		(property "Reference" "#PWR019_R02"
 			(at 97.79 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -15368,7 +15368,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "#PWR019_R")
+					(reference "#PWR019_R02")
 					(unit 1)
 				)
 			)
@@ -16273,7 +16273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f467b14-4d70-45f5-a927-865b0fbc5e90")
-		(property "Reference" "J4_R"
+		(property "Reference" "J4_R2"
 			(at 138.43 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16295,7 +16295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "willkeebs_misc:SMD_Conn_1x02_P2.54mm_Vertical"
 			(at 135.89 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -16337,7 +16337,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "J4_R")
+					(reference "J4_R2")
 					(unit 1)
 				)
 			)
@@ -16458,7 +16458,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6154d346-8973-4c97-b3af-5a0f1f9d6732")
-		(property "Reference" "SW30_R1"
+		(property "Reference" "SW30"
 			(at 241.3 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16521,7 +16521,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW30_R1")
+					(reference "SW30")
 					(unit 1)
 				)
 			)
@@ -16642,7 +16642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63e5bad7-e2f7-42c3-90f3-2f5f4a65bf42")
-		(property "Reference" "SW31_R1"
+		(property "Reference" "SW31"
 			(at 241.3 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16705,7 +16705,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW31_R1")
+					(reference "SW31")
 					(unit 1)
 				)
 			)
@@ -16723,7 +16723,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "641a2f16-4135-4a2a-aae8-38609daa1dea")
-		(property "Reference" "SW24_R1"
+		(property "Reference" "SW24"
 			(at 215.9 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16786,7 +16786,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW24_R1")
+					(reference "SW24")
 					(unit 1)
 				)
 			)
@@ -18402,7 +18402,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d2cb2f2-3d1b-4d4d-90a1-593c7e7112b2")
-		(property "Reference" "SW29_R1"
+		(property "Reference" "SW29"
 			(at 241.3 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18465,7 +18465,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW29_R1")
+					(reference "SW29")
 					(unit 1)
 				)
 			)
@@ -19339,7 +19339,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9476387c-2558-4af9-9ea3-74c7aca195b5")
-		(property "Reference" "D48_R"
+		(property "Reference" "D48_R2"
 			(at 116.84 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19412,7 +19412,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D48_R")
+					(reference "D48_R2")
 					(unit 1)
 				)
 			)
@@ -19429,7 +19429,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "990af469-9b5e-452f-9067-d05ec14f1afc")
-		(property "Reference" "D47_R"
+		(property "Reference" "D47_R2"
 			(at 111.76 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19502,7 +19502,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "D47_R")
+					(reference "D47_R2")
 					(unit 1)
 				)
 			)
@@ -20024,7 +20024,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1928a9a-d59a-4d65-b83e-d6725f2a09af")
-		(property "Reference" "SW21_R1"
+		(property "Reference" "SW21"
 			(at 215.9 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20087,7 +20087,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW21_R1")
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -20105,7 +20105,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2b4d386-f35c-4740-87f6-78036292edb4")
-		(property "Reference" "SW37_R1"
+		(property "Reference" "SW37"
 			(at 269.24 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20168,7 +20168,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW37_R1")
+					(reference "SW37")
 					(unit 1)
 				)
 			)
@@ -21178,7 +21178,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6c7e408-d242-4347-83d8-9a7ad85115b6")
-		(property "Reference" "SW35_R1"
+		(property "Reference" "SW35"
 			(at 255.27 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21241,7 +21241,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW35_R1")
+					(reference "SW35")
 					(unit 1)
 				)
 			)
@@ -21259,7 +21259,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7d2cf4a-fd4b-429e-b4f9-21f8b7e2f931")
-		(property "Reference" "SW40_R1"
+		(property "Reference" "SW40"
 			(at 281.94 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21322,7 +21322,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW40_R1")
+					(reference "SW40")
 					(unit 1)
 				)
 			)
@@ -21765,7 +21765,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c045a94d-1542-4899-b81b-3a3cef3f91ed")
-		(property "Reference" "SW25_R1"
+		(property "Reference" "SW25"
 			(at 228.6 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21828,7 +21828,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW25_R1")
+					(reference "SW25")
 					(unit 1)
 				)
 			)
@@ -22347,7 +22347,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca6d9e99-b675-4b79-982b-d337c35d875d")
-		(property "Reference" "SW32_R1"
+		(property "Reference" "SW32"
 			(at 241.3 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22410,7 +22410,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW32_R1")
+					(reference "SW32")
 					(unit 1)
 				)
 			)
@@ -22634,7 +22634,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd2add1c-2632-47b9-847a-880e16fb2618")
-		(property "Reference" "SW22_R1"
+		(property "Reference" "SW22"
 			(at 215.9 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22697,7 +22697,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW22_R1")
+					(reference "SW22")
 					(unit 1)
 				)
 			)
@@ -22918,7 +22918,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d504dac0-b039-44d5-baa0-731b0be472ba")
-		(property "Reference" "SW39_R1"
+		(property "Reference" "SW39"
 			(at 281.94 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22981,7 +22981,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW39_R1")
+					(reference "SW39")
 					(unit 1)
 				)
 			)
@@ -23075,7 +23075,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea59aff4-1c70-4922-981c-d7470f5ec47e")
-		(property "Reference" "SW36_R1"
+		(property "Reference" "SW36"
 			(at 269.24 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23138,7 +23138,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW36_R1")
+					(reference "SW36")
 					(unit 1)
 				)
 			)
@@ -23556,7 +23556,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f603bb85-27c4-49de-9435-1698b4124145")
-		(property "Reference" "F2_R"
+		(property "Reference" "F2_R1"
 			(at 100.33 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23630,7 +23630,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "F2_R")
+					(reference "F2_R1")
 					(unit 1)
 				)
 			)
@@ -23806,7 +23806,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8f5ca4b-8c74-4ce3-ad4d-d5c3f5ee500b")
-		(property "Reference" "SW28_R1"
+		(property "Reference" "SW28"
 			(at 228.6 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23869,7 +23869,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW28_R1")
+					(reference "SW28")
 					(unit 1)
 				)
 			)
@@ -23887,7 +23887,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb6e2b7b-2c28-4208-9be2-444b909265f0")
-		(property "Reference" "SW33_R1"
+		(property "Reference" "SW33"
 			(at 255.27 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23950,7 +23950,7 @@
 		(instances
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
-					(reference "SW33_R1")
+					(reference "SW33")
 					(unit 1)
 				)
 			)
