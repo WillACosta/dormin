@@ -39,8 +39,7 @@ points:
           # rows.bottom.skip: true
         pinky:
           key:
-            stagger: 8
-            # stagger: u/2
+            stagger: u/2
 
         ring:
           key:
@@ -116,15 +115,15 @@ outlines:
 
         - ref: matrix_outer_bottom
           shift: [3cx, -0.6cy]
-        - ref: matrix_outer_bottom
-          shift: [0.6cx, -0.6cy]
+        # - ref: matrix_outer_bottom
+        #   shift: [0.6cx, -0.6cy]
         - ref: matrix_outer_bottom
           shift: [-0.6cx, -0.6cy]
 
         - ref: matrix_outer_top
-          shift: [-0.6cx, 0.6cy]
+          shift: [-0.6cx, 1.13cy]
         - ref: matrix_outer_top
-          shift: [0.4cx, 0.6cy]
+          shift: [0.4cx, 1.13cy]
 
         - ref: matrix_pinky_top
           shift: [-0.5cx, 0.6cy]
@@ -152,9 +151,9 @@ outlines:
           shift: [0.5cx, 0.6cy]
 
         - ref: matrix_inner_top
-          shift: [0.6cx, 0.4cy]
+          shift: [0.6cx, 0.6cy]
         - ref: matrix_inner_top
-          shift: [2cx, 0.4cy]
+          shift: [2cx, 0.6cy]
 
         - ref: matrix_inner_bottom
           shift: [2cx, 0]
