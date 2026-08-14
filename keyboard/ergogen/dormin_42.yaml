@@ -39,19 +39,21 @@ points:
           # rows.bottom.skip: true
         pinky:
           key:
-            stagger: u/2
+            stagger: 8
+            # stagger: u/2
+
         ring:
           key:
-            stagger: u/4
+            stagger: 4
         middle:
           key:
-            stagger: u/4
+            stagger: 4
         index:
           key:
-            stagger: -u/4
+            stagger: -4
         inner:
           key:
-            stagger: -u/4
+            stagger: -4
       rows:
         bottom:
         home:
@@ -93,7 +95,7 @@ outlines:
 
   _board_outline:
     - what: polygon
-      fillet: 2
+      fillet: 3
       points:
         - ref: thumb_outer_only
           shift: [0.6cx, 0.6cy]
@@ -189,14 +191,14 @@ outlines:
       name: _board_outline
       operation: stack
     - what: outline
-      name: _raw_keycap
+      name: _switch_cutouts
       operation: stack
 
   pcb_ref_raw:
     - what: outline
       name: _board_outline_raw
     - what: outline
-      name: _raw_keycap
+      name: _switch_cutouts
       operation: stack
 
   top_plate:

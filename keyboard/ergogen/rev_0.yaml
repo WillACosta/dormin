@@ -43,7 +43,7 @@ points:
               skip: true    # outer pinky = 2 keys only
         pinky:
           key:
-            stagger: -4
+            stagger: -u/2
             column_net: col1
         ring:
           key:
@@ -59,7 +59,7 @@ points:
             column_net: col4
         inner:
           key:
-            stagger: -2
+            stagger: -4
             column_net: col5
       rows:
         bottom:

@@ -42,16 +42,16 @@ points:
             stagger: u/2
         ring:
           key:
-            stagger: u/4
+            stagger: 4
         middle:
           key:
-            stagger: u/4
+            stagger: 4
         index:
           key:
-            stagger: -u/4
+            stagger: -4
         inner:
           key:
-            stagger: -u/4
+            stagger: -4
       rows:
         bottom:
         home:
@@ -60,7 +60,7 @@ points:
     thumbs:
       anchor:
         ref: matrix_index_bottom
-        shift: [-0.1u, -1.30u]
+        shift: [-0.125u, -1.30u]
       columns:
         inner:
           key:
@@ -102,13 +102,13 @@ outlines:
   _pcb_bounds:
     - what: rectangle
       where: key
-      size: [u + m_pcb * 2, u + m_pcb * 2]
-      corner: 2.5
+      size: [u + m_pcb, u + m_pcb]
+      corner: 2
 
   _plate_bounds:
     - what: rectangle
       where: key
-      size: [u + m_plate * 2, u + m_plate * 2]
+      size: [u + m_plate, u + m_plate]
       corner: 3
 
   switch_cutouts:
@@ -147,34 +147,43 @@ outlines:
       name: _keycaps
       operation: stack
 
+  pcbref:
+    main:
+      what: outline
+      name: _pcb_bounds
+    keyholes:
+      what: outline
+      name: switch_cutouts
+      operation: subtract
+
 # ------------------------------------------------------------------------------
 # CASES (Sandwich Case)
 # ------------------------------------------------------------------------------
-cases:
-  top_plate_3d:
-    - what: outline
-      name: top_plate
-      extrude: 1.2
-  bottom_case_3d:
-    - what: outline
-      name: _plate_bounds
-      extrude: 2.5
+# cases:
+#   top_plate_3d:
+#     - what: outline
+#       name: top_plate
+#       extrude: 1.2
+#   bottom_case_3d:
+#     - what: outline
+#       name: _plate_bounds
+#       extrude: 2.5
 
 # ------------------------------------------------------------------------------
 # PCBS
 # ------------------------------------------------------------------------------
-pcbs:
-  dormin:
-    outlines:
-      - outline: pcb
-        layer: Edge.Cuts
-    footprints:
-      choc_switches:
-        what: SW_MX_Choc_Hotswap
-        where: true
-        params:
-          designator: SW
-          value: SW_Push
-          from: "{{colrow}}_from"
-          to: "{{colrow}}_to"
-          keycaps: true
+# pcbs:
+#   dormin:
+#     outlines:
+#       - outline: pcb
+#         layer: Edge.Cuts
+#     footprints:
+#       choc_switches:
+#         what: SW_MX_Choc_Hotswap
+#         where: true
+#         params:
+#           designator: SW
+#           value: SW_Push
+#           from: "{{colrow}}_from"
+#           to: "{{colrow}}_to"
+#           keycaps: true
