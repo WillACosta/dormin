@@ -155,6 +155,78 @@ outlines:
         - ref: matrix_inner_bottom
           shift: [2cx, 0]
 
+  # Mirrored board outline (right half) — uses mirror_ prefixed point
+  # refs with same shifts as the original (ergogen auto-negates X for
+  # mirror_ points). Vertex order is reversed to maintain correct
+  # polygon winding after the X-flip.
+  _mirror_board_outline:
+    - what: polygon
+      fillet: 3.2
+      points:
+        # Start from inner edge (reverse of original ending)
+        - ref: mirror_matrix_inner_bottom
+          shift: [2cx, 0]
+
+        - ref: mirror_matrix_inner_top
+          shift: [2cx, 0.6cy]
+        - ref: mirror_matrix_inner_top
+          shift: [0.6cx, 0.6cy]
+
+        - ref: mirror_matrix_inner_top
+          shift: [0.5cx, 0.6cy]
+        - ref: mirror_matrix_inner_top
+          shift: [-0.4cx, 0.6cy]
+
+        - ref: mirror_matrix_index_top
+          shift: [0.5cx, 0.6cy]
+        - ref: mirror_matrix_index_top
+          shift: [-0.4cx, 0.6cy]
+
+        - ref: mirror_matrix_middle_top
+          shift: [0.4cx, 0.6cy]
+        - ref: mirror_matrix_middle_top
+          shift: [-0.4cx, 0.61cy]
+
+        - ref: mirror_matrix_ring_top
+          shift: [0.4cx, 0.6cy]
+        - ref: mirror_matrix_ring_top
+          shift: [-0.5cx, 0.6cy]
+
+        - ref: mirror_matrix_pinky_top
+          shift: [0.4cx, 0.6cy]
+        - ref: mirror_matrix_pinky_top
+          shift: [-0.5cx, 0.6cy]
+
+        - ref: mirror_matrix_outer_top
+          shift: [0.4cx, 1.13cy]
+        - ref: mirror_matrix_outer_top
+          shift: [-0.6cx, 1.13cy]
+
+        # Bottom outline
+        - ref: mirror_matrix_outer_home
+          shift: [-0.6cx, -1.15cy]
+        - ref: mirror_matrix_outer_home
+          shift: [2.6cx, -1.15cy]
+
+        # Thumb cluster (reversed order)
+        - ref: mirror_thumb_inner_only
+          shift: [-0.6cx, -0.6cy]
+        - ref: mirror_thumb_inner_only
+          shift: [0.4cx, -0.6cy]
+
+        - ref: mirror_thumb_home_only
+          shift: [-0.4cx, -0.6cy]
+        - ref: mirror_thumb_home_only
+          shift: [0.4cx, -0.6cy]
+
+        - ref: mirror_thumb_outer_only
+          shift: [-0.4cx, -0.6cy]
+        - ref: mirror_thumb_outer_only
+          shift: [0.6cx, -0.6cy]
+        - ref: mirror_thumb_outer_only
+          shift: [0.6cx, 0.6cy]
+
+
   _keycap_outlines:
     - what: rectangle
       where: true
@@ -179,12 +251,18 @@ outlines:
       name: _board_outline
       operation: stack
     - what: outline
+      name: _mirror_board_outline
+      operation: stack
+    - what: outline
       name: _keycap_outlines
       operation: stack
 
   pcb_ref:
     - what: outline
       name: _board_outline
+      operation: stack
+    - what: outline
+      name: _mirror_board_outline
       operation: stack
     - what: outline
       name: _switch_cutouts
