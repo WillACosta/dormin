@@ -11551,7 +11551,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 139.7 187.96 0)
+		(at 139.7 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11561,7 +11561,7 @@
 		(dnp no)
 		(uuid "06bce7cf-2c64-4efa-b102-2865279e8fe9")
 		(property "Reference" "MH6_R1"
-			(at 143.256 186.6899 0)
+			(at 143.256 184.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11572,7 +11572,7 @@
 			)
 		)
 		(property "Value" "MountingHole_2.2mm_M2"
-			(at 143.256 189.2299 0)
+			(at 143.256 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11583,7 +11583,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 139.7 187.96 0)
+			(at 139.7 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11594,7 +11594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 187.96 0)
+			(at 139.7 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11605,7 +11605,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 187.96 0)
+			(at 139.7 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15718,7 +15718,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 139.7 198.12 0)
+		(at 139.7 195.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15728,7 +15728,7 @@
 		(dnp no)
 		(uuid "53826de6-640f-4b63-9a14-3ac6184a10eb")
 		(property "Reference" "MH8_R1"
-			(at 143.256 196.8499 0)
+			(at 143.256 194.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15739,7 +15739,7 @@
 			)
 		)
 		(property "Value" "MountingHole_2.2mm_M2"
-			(at 143.256 199.3899 0)
+			(at 143.256 196.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15750,7 +15750,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 139.7 198.12 0)
+			(at 139.7 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15761,7 +15761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 198.12 0)
+			(at 139.7 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15772,7 +15772,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 198.12 0)
+			(at 139.7 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16116,7 +16116,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 139.7 182.88 0)
+		(at 139.7 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16126,7 +16126,7 @@
 		(dnp no)
 		(uuid "58a895a3-448a-4e56-824e-ba8d9c339ee8")
 		(property "Reference" "MH5_R1"
-			(at 143.256 181.6099 0)
+			(at 143.256 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16137,7 +16137,7 @@
 			)
 		)
 		(property "Value" "MountingHole_2.2mm_M2"
-			(at 143.256 184.1499 0)
+			(at 143.256 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16148,7 +16148,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 139.7 182.88 0)
+			(at 139.7 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16159,7 +16159,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 182.88 0)
+			(at 139.7 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16170,7 +16170,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 182.88 0)
+			(at 139.7 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17617,6 +17617,81 @@
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
 					(reference "U5_R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 139.7 200.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7229bfca-6a8d-47e7-8dd0-4e608f8cda4f")
+		(property "Reference" "MH9_R1"
+			(at 143.256 199.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 143.256 201.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 139.7 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "dormin"
+				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
+					(reference "MH9_R1")
 					(unit 1)
 				)
 			)
@@ -22167,7 +22242,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 139.7 193.04 0)
+		(at 139.7 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22177,7 +22252,7 @@
 		(dnp no)
 		(uuid "c75a3246-f316-42e0-a4a2-8b4022dd7527")
 		(property "Reference" "MH7_R1"
-			(at 143.256 191.7699 0)
+			(at 143.256 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22188,7 +22263,7 @@
 			)
 		)
 		(property "Value" "MountingHole_2.2mm_M2"
-			(at 143.256 194.3099 0)
+			(at 143.256 191.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22199,7 +22274,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 139.7 193.04 0)
+			(at 139.7 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22210,7 +22285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 193.04 0)
+			(at 139.7 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22221,7 +22296,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 193.04 0)
+			(at 139.7 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23002,6 +23077,81 @@
 			(project "dormin"
 				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
 					(reference "SW39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 139.7 205.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc66a31c-73b0-4521-b589-1430eaaf8f96")
+		(property "Reference" "MH10_R1"
+			(at 143.256 204.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 143.256 207.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 139.7 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "dormin"
+				(path "/603afaa0-4142-4673-b835-76ba767ab9eb/c34ad971-40ee-4ba1-b588-4be495453fb3"
+					(reference "MH10_R1")
 					(unit 1)
 				)
 			)
