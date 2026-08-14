@@ -13,7 +13,7 @@ meta:
 # UNITS
 # ------------------------------------------------------------------------------
 units:
-  # MX standard spacing: 19.05mm (3/4 inch, the Cherry MX spec)
+  # MX standard spacing: 19.05mm
   u: 19.05
   cx: 18
   cy: 18
@@ -113,9 +113,9 @@ outlines:
 
         # Bottom outline
         - ref: matrix_outer_home
-          shift: [2.6cx, -1.15cy]
+          shift: [2.6cx, -1.135cy]
         - ref: matrix_outer_home
-          shift: [-0.6cx, -1.15cy]
+          shift: [-0.6cx, -1.135cy]
 
         - ref: matrix_outer_top
           shift: [-0.6cx, 1.13cy]
@@ -204,9 +204,9 @@ outlines:
 
         # Bottom outline
         - ref: mirror_matrix_outer_home
-          shift: [-0.6cx, -1.15cy]
+          shift: [-0.6cx, -1.135cy]
         - ref: mirror_matrix_outer_home
-          shift: [2.6cx, -1.15cy]
+          shift: [2.6cx, -1.135cy]
 
         # Thumb cluster (reversed order)
         - ref: mirror_thumb_inner_only
@@ -233,12 +233,6 @@ outlines:
       size: [cx, cy]
       fillet: 2
 
-  _board_outline_raw:
-    - what: rectangle
-      where: key
-      size: [u + m_pcb, u + m_pcb]
-      corner: 3.2
-
   _switch_cutouts:
     - what: rectangle
       where: true
@@ -257,6 +251,14 @@ outlines:
       name: _keycap_outlines
       operation: stack
 
+  pcb_outlines:
+    - what: outline
+      name: _board_outline
+      operation: stack
+    - what: outline
+      name: _mirror_board_outline
+      operation: stack
+
   pcb_ref:
     - what: outline
       name: _board_outline
@@ -264,13 +266,6 @@ outlines:
     - what: outline
       name: _mirror_board_outline
       operation: stack
-    - what: outline
-      name: _switch_cutouts
-      operation: stack
-
-  pcb_ref_raw:
-    - what: outline
-      name: _board_outline_raw
     - what: outline
       name: _switch_cutouts
       operation: stack
@@ -304,27 +299,27 @@ cases:
 pcbs:
   dormin:
     outlines:
-      - outline: _board_outline
+      - outline: pcb_outlines
         layer: Edge.Cuts
 
     footprints:
-      # choc_switches:
-      #   what: SW_MX_Choc_Hotswap
-      #   where: true
-      #   params:
-      #     designator: SW
-      #     value: SW_Push
-      #     from: "{{colrow}}_from"
-      #     to: "{{colrow}}_to"
-      #     keycaps: true
-
-      - what: ceoloide/switch_mx
-        where: /^matrix_|^thumb_/
+      choc_switches:
+        what: SW_MX_Choc_Hotswap
+        where: true
         params:
-          from: "{{column_net}}"
-          to: "{{colrow}}_sw"
-          reversible: true
-          hotswap: true
-          solder: true
-          include_keycap: true
-          include_corner_marks: true
+          designator: SW
+          value: SW_Push
+          from: "{{colrow}}_from"
+          to: "{{colrow}}_to"
+          keycaps: true
+
+      # - what: ceoloide/switch_mx
+      #   where: /^matrix_|^thumb_/
+      #   params:
+      #     from: "{{column_net}}"
+      #     to: "{{colrow}}_sw"
+      #     reversible: true
+      #     hotswap: true
+      #     solder: true
+      #     include_keycap: true
+          # include_corner_marks: true
