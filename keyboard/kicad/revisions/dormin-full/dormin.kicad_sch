@@ -1,0 +1,113 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "603afaa0-4142-4673-b835-76ba767ab9eb")
+	(paper "A5")
+	(title_block
+		(title "Dormin Keyboard")
+		(date "2026-07-19")
+		(rev "1.0.0")
+		(comment 1 "Left Half")
+		(comment 2 "Author: William A. Costa")
+	)
+	(lib_symbols)
+	(sheet
+		(at 44.45 41.91)
+		(size 57.15 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "61f422a6-c5c1-4994-83bd-f5d919e1e268")
+		(property "Sheetname" "Left"
+			(at 44.45 41.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dormin_left.kicad_sch"
+			(at 44.45 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dormin"
+				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 41.91)
+		(size 58.42 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c34ad971-40ee-4ba1-b588-4be495453fb3")
+		(property "Sheetname" "Right"
+			(at 105.41 41.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dormin_right.kicad_sch"
+			(at 105.41 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dormin"
+				(path "/603afaa0-4142-4673-b835-76ba767ab9eb"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
