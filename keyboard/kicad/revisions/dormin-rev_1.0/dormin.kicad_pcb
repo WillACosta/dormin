@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(general
-		(thickness 1.6)
+		(thickness 1.3)
 		(legacy_teardrops no)
 	)
 	(paper "A3")
@@ -56,7 +56,7 @@
 			(layer "dielectric 1"
 				(type "core")
 				(color "#000000FF")
-				(thickness 1.51)
+				(thickness 1.21)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -94,6 +94,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(grid_origin 242.78 102.5025)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555f55_57555550)
